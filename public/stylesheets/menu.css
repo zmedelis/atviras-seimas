@@ -1,0 +1,89 @@
+
+
+/* 
+http://www.colourlovers.com/palette/191495/table_and_chairs
+Horizontalus mini tabu meniu 
+*/
+
+#tabcontainer {
+    margin-top: 10px;
+}
+
+#miniflex {
+	width: 50%;
+	float: left;
+	font-size: 120%;
+        font-style: italic;
+	margin-bottom: 1em;
+	border-bottom: 1px solid #333;
+	}
+
+#miniflex li {
+	float: left;
+	margin: 0; 
+	padding: 0;
+	display: inline;
+	list-style: none;
+        background: #F3FFE2;
+	}
+	
+#miniflex a:link, #miniflex a:visited {
+	float: left;
+	font-size: 100%;
+	line-height: 20px;
+	margin: 0 0px 0 4px;
+	text-decoration: none;
+	color: black;
+        padding-left:15px;
+        padding-right:15px;
+	}
+
+#miniflex a#current, #miniflex a:visited#current, #miniflex a:hover{
+        background: #ED3B3B;        
+}
+
+
+
+/* 
+http://css.maxdesign.com.au/listamatic/horizontal05.htm
+*/
+#navlist
+{
+    padding: 3px 0;
+    margin-left: 0;
+    border-bottom: 1px solid #778;
+    font: bold 14px Verdana, sans-serif;
+}
+
+#navlist li
+{
+    list-style: none;
+    margin: 0;
+    display: inline;
+}
+
+#navlist li a
+{
+    padding: 3px 0.5em;
+    margin-left: 1px;
+    border: 1px solid #778;
+    border-bottom: none;
+    background: #F2E7B1;
+    text-decoration: none;
+}
+
+#navlist li a:link { color: black; }
+#navlist li a:visited { color: black; }
+
+#navlist li a:hover
+{
+    color: black;
+    background: #ED3B3B;
+    border-color: #227;
+}
+
+#navlist li a#current
+{
+    background: #F3FFE2;
+    border-bottom: 1px solid white;
+}

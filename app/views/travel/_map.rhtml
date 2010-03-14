@@ -1,0 +1,18 @@
+<div id="textbody">
+Žemėlapis sudarytas pagal Seimo narių <a href="http://www3.lrs.lt/pls/inter/w5_show?p_r=2944&p_k=1">komandiruočių ataskaitas</a>.
+Skaičius, žemėlapyje žymintis šalį, nurodo kiek kartų parlamentarai vyko į tą šalį.
+Detalesnę informaciją apie komandiruotes galima matyti paspaudus ant skaičiaus.
+Komandiruočių į ES šalis pasiskirstymas matomas padidinus žemėlapio mastelį.
+Prie žemėlapio esančiame sąraše pasirinkus Seimo narį(-ę), rodomos tik to Seimo nario(-ės) komandiruotės.
+</div>
+<div style="float:left;margin-top:15px">
+    <div id='map'></div>
+  </div>    
+<div style="float:left;margin-top:15px">
+    <select style='width:170px;height:550px;margin-left:1px'
+            class='mplist' onchange="load_mp(this.options[this.selectedIndex].value)" size='21'>
+            <%@travelers.each do |mp|%>
+            <option value="<%=mp.id_in_lrs%>"><%=mp.full_name%></option>
+            <%end%>
+    </select>
+</div>

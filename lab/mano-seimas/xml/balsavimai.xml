@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+	Čia pateikiami seimo narių balsavimai už projektus.
+	
+	<balsavimas> aprašo seimo narių balsus už nurodyta projektą
+	
+	<balsavimas> atributai:
+	- projekto_id: projekto už kurį balsuojama ID, žr. projektai.xml
+	
+	<balsavimas> turi <balsas> elementus aprašančius seimo nario balsavimą už projektą
+	
+	<balsas> atributai:
+	- seimo_nario_id: seimo nario, aprašomo šiame elemente, id
+	- veiksmas: seimo nario veiksmas dėl projekto, galimos reikšmės: taip, ne, susilaikė, nedalyvavo, nebalsavo	
+-->
+<lrs>
+	<balsavimas projekto_id="ID1">
+		<balsas seimo_nario_id="ID1" veiksmas="taip"/>
+		<balsas seimo_nario_id="ID2" veiksmas="ne"/>
+		<balsas seimo_nario_id="ID3" veiksmas="susilaike"/>
+		<balsas seimo_nario_id="ID4" veiksmas="nedalyvavo"/>
+		<balsas seimo_nario_id="ID5" veiksmas="nebalsavo"/>
+	</balsavimas>
+	<balsavimas projekto_id="ID2">
+		<balsas seimo_nario_id="ID1" veiksmas="taip"/>
+		<balsas seimo_nario_id="ID2" veiksmas="ne"/>
+		<balsas seimo_nario_id="ID3" veiksmas="susilaike"/>
+		<balsas seimo_nario_id="ID4" veiksmas="nedalyvavo"/>
+		<balsas seimo_nario_id="ID5" veiksmas="nebalsavo"/>
+	</balsavimas>
+</lrs>

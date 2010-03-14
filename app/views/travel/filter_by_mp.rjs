@@ -1,0 +1,1 @@
+page.call 'load_mp', @mp 

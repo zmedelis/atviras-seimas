@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+	Partijos rėmėjų sąrašas. Pateikiami ir rinkimų ir tarprinkiminio laikotarpio remėjai
+	
+	<partija> elemente išvardinami visi rėmėjai
+	<partija> atributai:
+	- id: unikalus partijos numeris, žr. partijos.xml
+	
+	<remejas> aprašo individualų partijos remėją
+	<remejas> atributai:
+	- pavadinimas:	remėjo pavadinimas, jei juridinis asmuo, arba vardas, jei fizinis asmuo, čia nenaudojami ID sąryšius sudaryti pagal pavadinimą
+	- tipas:	remėjo tipas: Juridinis asmuo, Fizinis asmuo, Partijos lėšos, Nuosavos lėšos
+	- suma:		rėmimo suma
+	- laikotarpis:	rėmimo laikotarpis, galimos reikšmės: rinkimai - jei remiama rinkimams, metai (2004), jei remiama tarprinkiminiu laikotarpiu
+	- data:		tiksli pinigų perdavimo data YYYY-MM-DD gali būti tuščia
+-->
+<lrs>
+	<partija id="ID1">
+		<remejas pavadinimas="Edmundas Kulikauskas" tipas="Fizinis asmuo" suma="10.29" laikotarpis="rinkimai" data=""/>
+		<remejas pavadinimas="Tėvynės Sąjunga (konservatoriai, politiniai kaliniai ir tremtiniai, krikščioniškieji demokratai)" tipas="Partijos lėšos" suma="734595.79" laikotarpis="2004" data=""/>
+		<remejas pavadinimas="A.Baranauskienė" tipas="Fizinis asmuo" suma="30" laikotarpis="2004" data=""/>
+		<remejas pavadinimas="TS užsienio skyriai" tipas="Nuosavos lėšos" suma="79133" laikotarpis="2004" data="2004-06-30"/>
+	</partija>
+</lrs>

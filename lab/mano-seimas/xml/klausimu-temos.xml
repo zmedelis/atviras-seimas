@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+	<lrs> gali turėti daugiau nei vieną <klausimo_tema> kuris aprašo atskirą temą
+		
+	<klausimo_tema> atributai:
+	- id: unikalus klausimo temos numeris
+	- pavadinimas: temos pavadinimas
+-->
+<lrs>
+    <klausimo_tema id="1" pavadinimas="Aplinkosauga"/>
+    <klausimo_tema id="2" pavadinimas="Ekonomika ir finansai"/>
+    <klausimo_tema id="3" pavadinimas="Žemės ūkis ir kaimo plėtra"/>
+    <klausimo_tema id="4" pavadinimas="Krašto apsauga"/>
+    <klausimo_tema id="5" pavadinimas="Kultūra ir sportas"/>
+    <klausimo_tema id="6" pavadinimas="Regioninė plėtra ir savivalda"/>
+    <klausimo_tema id="7" pavadinimas="Ryšiai ir telekomunikacijos"/>
+    <klausimo_tema id="8" pavadinimas="Socialinė apsauga ir darbas"/>
+    <klausimo_tema id="9" pavadinimas="Sveikatos apsauga"/>
+    <klausimo_tema id="10" pavadinimas="Švietimas ir mokslas"/>
+    <klausimo_tema id="11" pavadinimas="Teisė ir teisėtvarka"/>
+    <klausimo_tema id="12" pavadinimas="Užsienio politika"/>
+    <klausimo_tema id="13" pavadinimas="Valstybės valdymas"/>
+    <klausimo_tema id="14" pavadinimas="Žmogaus teisės"/>
+</lrs>

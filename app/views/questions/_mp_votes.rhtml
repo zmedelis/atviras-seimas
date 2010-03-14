@@ -1,0 +1,33 @@
+<%labels=%w{Nadalyvavo Nebalsavo Susilaikė Ne Taip}%>
+
+<table style="width:99%;margin-top:20px">
+    <col width="3%"/>
+    <col width="6%"/>
+    <col width="6%"/>
+    <col width="6%"/>
+    <col/>
+<%@mp_votes.each do |v|%>
+	<%
+	pv = ParliamentVote.find(:first,:conditions=>{:question_id => v.question_id})
+	if pv then #TODO sito ifo nereikia bet dabar sugadinta db del kitu bugu ir kabo PV be atitinkamu Q
+	%>
+    <tr style="border-top: 1px solid #1695A3">
+      <td style="padding-bottom:15px;padding-top:5px;">
+      <%= sparkline_tag [pv.action_yes * 100.0 / (pv.action_yes + pv.action_no + pv.action_absent + pv.action_abstain + pv.action_novote)],
+        :type => 'pie',
+        :diameter => 18,
+        :share_color => '#ED3B3B',
+        :remain_color => '#FFCFCF' %>
+      </td>
+      <td><%=labels[v.action-1]%></td>
+      <td style="padding-bottom:15px;padding-top:5px;text-align: center;"><%=h v.question.sitting.date%></td>
+      <td style="padding-bottom:15px;padding-top:5px;text-align: center;"><%=h v.time%></td>
+      <td style="padding-bottom:15px;padding-top:5px;">
+        <%=link_to v.question.formulation,
+          {:controller=> 'questions', :action => 'show', :id=>v.question.sid},
+          {:id => 'inlist'}%>
+      </td>
+    <tr>
+	<%end%>
+<%end if @mp_votes%>
+</table>

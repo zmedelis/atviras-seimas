@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+	<lrs> gali turėti daugiau nei vieną <balasavimo_tema> kuris aprašo atskirą 
+	balsavimo temą
+		
+	<balasavimo_tema> atributai:
+	- id: unikalus balsavimo temos numeris
+	- pavadinimas: temos pavadinimas
+-->
+<lrs>
+	<balasavimo_tema id="1" pavadinimas="Aplinkosauga"/>
+	<balasavimo_tema id="2" pavadinimas="Ekonomika ir finansai"/>
+	<balasavimo_tema id="3" pavadinimas="Krašto apsauga"/>
+	<balasavimo_tema id="4" pavadinimas="Kultūra ir sportas"/>
+	<balasavimo_tema id="5" pavadinimas="Regioninė plėtra ir savivalda"/>
+	<balasavimo_tema id="6" pavadinimas="Ryšiai ir telekomunikacijos"/>
+	<balasavimo_tema id="7" pavadinimas="Socialinė apsauga ir darbas"/>
+	<balasavimo_tema id="8" pavadinimas="Sveikatos apsauga"/>
+	<balasavimo_tema id="9" pavadinimas="Švietimas ir mokslas"/>
+	<balasavimo_tema id="10" pavadinimas="Teisė ir teisėtvarka"/>
+	<balasavimo_tema id="11" pavadinimas="Užsienio politika"/>
+	<balasavimo_tema id="12" pavadinimas="Valstybės valdymas"/>
+	<balasavimo_tema id="13" pavadinimas="Žemės ūkis ir kaimo plėtra"/>
+	<balasavimo_tema id="14" pavadinimas="Žmogaus teisės"/>
+</lrs>

@@ -1,0 +1,56 @@
+<div style="width:800px">
+  <div style="width:370px;float:left;margin-right:20px;margin-bottom:30px">
+    <h2 class='infobox_title'>Lankomiausios šalys</h2>
+    <table width="100%">
+      <%@states[0..9].each do |state|%>
+        <tr>
+          <td><%=state.state_labels[0].label%></td>
+          <td><%=state.trips.size.to_s%></td>
+        </tr>
+      <%end%>
+    </table>
+  </div>
+
+  <div style="width:370px;float:left;margin-bottom:30px">
+    <h2 class='infobox_title'>Lankomiausios šalys be ES</h2>
+    <table width="100%">
+      <%@states.reject{|x| x.state_union }[0..9].each do |state|%>
+        <tr>
+          <td><%=state.state_labels[0].label%></td>
+          <td><%=state.trips.size.to_s%></td>
+        </tr>
+      <%end%>
+    </table>
+  </div>
+  <div style="clear:left"></div>
+</div>
+
+<div style="width:800px">
+  <div style="width:370px;float:left;margin-right:20px;margin-bottom:30px">
+    <h2 class='infobox_title'>Dažniausiai keliaujantys Seimo nariai (pagal komandiruočių skaičių)</h2>
+    <table width="100%">
+      <%@travelers.sort{|x,y| y.trips.size <=> x.trips.size}[0..9].each do |mp|%>
+        <tr>
+          <td><%=link_to mp.full_name,
+		            {:controller=> 'politicians', :action => 'show', :id => mp.name_as_id},
+		            {:id => 'inlist'} %></td>
+          <td><%=mp.trips.size.to_s%></td>
+        </tr>
+      <%end%>
+    </table>
+  </div>
+
+  <div style="width:370px;float:left;margin-bottom:30px">
+    <h2 class='infobox_title'>Daugiausiai keliaujantys Seimo nariai (pagal komandiruotėse praleistų dienų skaičių)</h2>
+    <table width="100%">
+      <%@travelers.sort{|x,y| y.mp_cache.trip_duration <=> x.mp_cache.trip_duration}[0..9].each do |mp|%>
+        <tr>
+          <td><%=link_to mp.full_name,
+		            {:controller=> 'politicians', :action => 'show', :id => mp.name_as_id},
+		            {:id => 'inlist'} %></td>
+          <td><%=mp.mp_cache.trip_duration.to_s%></td>
+        </tr>
+      <%end%>
+    </table>
+  </div>
+</div>

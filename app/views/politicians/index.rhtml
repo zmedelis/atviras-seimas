@@ -1,0 +1,49 @@
+
+
+
+<script>
+    endProgress();
+</script>
+
+<div id="page_description"><%=current_parliament%> metų Seimo kadencija</div>
+<table width="100%" style="border-collapse:separate; border-spacing :5px; margin-top:10px">
+  <colgroup>
+  <col style="width:20%">
+  <col style="width:80%">
+  </colgroup>
+<% @politicians_active.group_by(&:name_of_current_political_group).each do |party, mps| %>
+    <tr>
+    <td valign="top"><b><%=party%></b><br/><%=mps.size%> / <%=stat_percent(mps.size,@politicians_active.size)%> vietų Seime</td>
+    <td valign="top">
+    <% mps.each do |mp| %>
+        <div style="float:left;width:180px;">
+        <%=link_to mp.full_name, 
+            {:action => 'show', :id => mp.full_name.gsub(' ', '_')}, 
+            {:id => 'inlist'} %>
+        </div>
+    <% end %>
+    </td>
+    <tr>
+<% end %>
+</table>
+
+<hr/>
+<table width="100%" style="border-collapse:separate; border-spacing :5px">
+  <colgroup>
+    <col style="width:20%">
+    <col style="width:80%">
+  </colgroup>
+    <tr>
+    <td valign="top"><b>Buvę Seimo nariai</b></td>
+      <td valign="top">
+        <% @politicians_inactive.each do |mp| %>
+          <div style="float:left;width:180px;">
+            <%=link_to mp.full_name, 
+                {:action => 'show', :id => mp.full_name.gsub(' ', '_')}, 
+                {:id => 'inlist'} %>
+          </div>
+        <% end %>
+      </td>
+      <tr>
+</table>
+

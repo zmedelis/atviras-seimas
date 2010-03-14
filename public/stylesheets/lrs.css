@@ -1,0 +1,117 @@
+/* spalvos
+http://kuler.adobe.com/#themeID/257084
+*/
+
+
+#map{
+    min-width: 800px;
+    height: 550px;
+    
+}
+
+.subsection{
+    padding-top: 1em;
+    width: 100%;
+    font-size: 100%; 
+    font-weight: bold;
+    margin: 0;
+    border-bottom: 1px solid black;
+}
+
+.apilink{
+    font-style: italic;
+    text-indent: 3em;
+}
+
+.fullbody{
+    background: white;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+html, body {
+    background: white;
+    height: 100%;
+}
+
+div.markerLabel { 
+    text-align: center;
+    color: black;
+    letter-spacing: 0px;
+    font-size: 12px;
+    font-family: Arial;
+}
+
+.blockname{
+    margin: 10px 0px 0px 0px;
+    font-weight: bold;
+    font-size: 130%;
+    color: black;
+}
+.blockdivision{
+    padding: 0.4em 0.4em 0em 0em;
+    font-weight: bold;
+    font-size: 110%;
+    color: black;
+}
+.blocksubname{
+    padding: 0 0.4em 0.4em 0em;
+    font-size: 100%;
+    color: black;
+}
+
+.textbody{
+    padding-top: 1em;
+    font-size: 100%;
+    color: black;
+    margin: 0px 0 10px 0;
+}
+#fineprint{
+    font-size: 85%;
+    color: black;
+}
+
+.mplist{
+    width:100%;
+    list-style: none;
+}
+
+table.smalltable{
+    font-size: 90%;
+    width: 100%;
+    color: black;
+}
+
+a#inlist{
+    text-decoration:none;
+    color: #225378;
+}
+a#inlist:hover{
+    text-decoration: none;
+    color: black;
+    background: #F2E7B1;
+}
+
+.infobox{
+  margin-top:25px;
+  width:50px;
+  min-width:400px;
+  font-size:105%;
+}
+
+h2.infobox_title{
+  padding-left:5px;
+  padding-top:4px;
+  padding-bottom:4px;
+  margin-bottom:6px;
+  width:100%;
+  background:#77B59C;  
+  font-weight: bold;
+  color: black;
+}
+
+#page_description{
+    margin-top:15px;
+    font-size:150%;
+    width:100%;
+}

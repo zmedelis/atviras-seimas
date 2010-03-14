@@ -1,0 +1,23 @@
+<div style="margin-bottom:20px;margin-top:15px">Iš <%=Question.count(:all)%> Seime svarstytų klausimų <%=@questions.size%> atitinka paieškos kriterijus:</div>
+<table style="width:98%;">
+    <col width="3%"/>
+    <col width="12%"/>
+    <col width="85%"/>
+<%@questions.each do |q|%>
+    <tr style="border-top: 1px solid #1695A3">
+      <td style="padding-bottom:15px;padding-top:5px;">
+      <%
+          pv = ParliamentVote.find(:first,:conditions=>{:question_id => q.id})
+      %>
+      <%= sparkline_tag [pv.action_yes * 100.0 / 141],
+        :type => 'pie',
+        :diameter => 18,
+        :share_color => '#ED3B3B',
+        :remain_color => '#FFCFCF' %>
+      </td>
+
+      <td style="padding-bottom:15px;padding-top:5px;text-align: center;"><%=h q.sitting.date%></td>
+      <td style="padding-bottom:15px;padding-top:5px;"><%= link_to q.formulation, {:action => 'show', :id=>q.sid}, {:id => 'inlist'}%></td>
+    <tr>
+<%end%>
+</table>

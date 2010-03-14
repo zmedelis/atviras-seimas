@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+	Partijų ir partijų koalicijų, dalyvaujančių rinkimuose sąrašas
+	
+	<rinkiminis_sarasas> partija/koalicija
+	
+	<rinkiminis_sarasas> atributai:
+	- id: rinkiminio sąrašo numeris
+	- pavadinimas: partijos ar koalicijos pavadinimas rinkimuose
+
+	<rinkiminis_sarasas> gali tureti vieną arba daugiau partiją
+	
+	<partija>
+	- id: partijos id iš partijos.xml
+-->
+<lrs>
+	<rinkiminis_sarasas id="ID1" pavadinimas="Pavadinimas">
+		<partija id="PartijosID1"/>
+		<partija id="PartijosID1"/>
+	</balsavimas>
+	<rinkiminis_sarasas id="ID2" pavadinimas="Pavadinimas">
+		<partija id="PartijosID3"/>
+	</balsavimas>
+</lrs>

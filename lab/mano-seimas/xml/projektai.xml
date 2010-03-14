@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+	Projektų informacija pateikiama <projektas> tage. <lrs> gali turėti daugiau nei vieną <projektas>
+	
+	<projektas> atributai:
+	- id: unikalus projekto numeris
+	- pateiktas: pateikimo data YYYY-MM-DD
+	- sprendimas: priėmimo/atmetimo data YYYY-MM-DD, gali būti tuščia
+	- temos_id: temos, kuriai šis projektas priklauso, id
+	
+	<projektas> turi elementą <pateike> kuriame yra projektą pateikusių asmenų sarašas, sudarytas
+	iš <seimo_narys> elementų arba/ir, kai projektas pateiktas ne seimo narių, iš <kita> elementu
+
+	<seimo_narys> atributai:
+	- id: seimo nario id
+	
+	<kita> atributai:
+	- vardas: asmens, pateikusio projektą, vardas. pvz prezidentas
+	
+	<projektas> turi tekstinį (CDATA) elementą, pateikianti projekto pavadinimą - <pavadinimas>
+	<pavadinimas> atributai:
+	- trumpas: trumpas projekto pavadinimas
+		
+	<projektas> turi tekstinį (CDATA) elementą, pateikianti projekto aprasymą - <aprasymas>
+-->
+<lrs>
+	<projektas id="1" pateiktas="2007-10-02" sprendimas="2007-10-20" tema="ID">
+		<pateike>
+			<seimo_narys id="ID1"/>
+			<seimo_narys id="ID2"/>
+		</pateike>
+		<pavadinimas trumpas="Sed purus metus">
+		<![CDATA[
+		Sed purus metus, mattis vel, fringilla vel, aliquam et, turpis. Nam nulla augue, pretium eget, fringilla a, varius sed, nisl. Nulla pharetra dignissim erat.
+		]]>
+		</pavadinimas>
+		<aprasymas>
+			<![CDATA[
+			Etiam vitae arcu ut nisi lacinia adipiscing. Aenean non massa. In sit amet tortor posuere dui tempus placerat. Nunc purus felis, gravida vitae, scelerisque at, pellentesque vitae, orci. Fusce nisl turpis, pretium in, suscipit suscipit, commodo in, risus. Etiam eget lorem congue libero sollicitudin egestas. Nulla tempus, purus vel pulvinar pharetra, lectus erat fringilla mi, ut volutpat dolor nisl sit amet eros. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis interdum sollicitudin nibh. Nam eu lectus ac risus congue vulputate. Vivamus bibendum diam luctus velit. In id odio. Quisque ut lectus. Curabitur nulla nisi, pharetra et, accumsan vitae, aliquam ut, turpis. Proin egestas libero nec diam. Sed magna. Morbi est felis, sodales sit amet, viverra suscipit, condimentum sed, nulla.
+<br/>
+			Curabitur scelerisque iaculis felis. Pellentesque mattis volutpat libero. Morbi molestie odio quis risus. Mauris mollis. Vestibulum feugiat nulla in libero. Nam eget nulla. Morbi tincidunt convallis nisl. Integer sodales, ligula ut sagittis mollis, nibh est hendrerit purus, et mollis augue turpis non mauris. Duis dui est, molestie in, laoreet eu, euismod sed, metus. Nulla fermentum dolor a nisl. Duis aliquet libero et augue. Nunc imperdiet, mauris a suscipit sollicitudin, libero elit fringilla felis, quis sodales enim tortor a enim. Aliquam lectus. Sed diam. Nulla luctus vestibulum lacus. Nam a dui. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+			]]>			
+		</aprasymas>
+	</projektas>
+	
+	<projektas id="2" pateiktas="2007-10-02" sprendimas="2007-10-20" temos_id="ID">
+		<pateike>
+			<kita vardas="Prezidentas"/>
+		</pateike>
+		<pavadinimas>
+		<![CDATA[
+		Sed purus metus, mattis vel, fringilla vel, aliquam et, turpis. Nam nulla augue, pretium eget, fringilla a, varius sed, nisl. Nulla pharetra dignissim erat.
+		]]>
+		</pavadinimas>
+		<aprasymas>
+		<![CDATA[
+		Etiam vitae arcu ut nisi lacinia adipiscing. Aenean non massa. In sit amet tortor posuere dui tempus placerat. Nunc purus felis, gravida vitae, scelerisque at, pellentesque vitae, orci. Fusce nisl turpis, pretium in, suscipit suscipit, commodo in, risus. Etiam eget lorem congue libero sollicitudin egestas. Nulla tempus, purus vel pulvinar pharetra, lectus erat fringilla mi, ut volutpat dolor nisl sit amet eros. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis interdum sollicitudin nibh. Nam eu lectus ac risus congue vulputate. Vivamus bibendum diam luctus velit. In id odio. Quisque ut lectus. Curabitur nulla nisi, pharetra et, accumsan vitae, aliquam ut, turpis. Proin egestas libero nec diam. Sed magna. Morbi est felis, sodales sit amet, viverra suscipit, condimentum sed, nulla.
+		]]>			
+		</aprasymas>
+	</projektas>
+</lrs>

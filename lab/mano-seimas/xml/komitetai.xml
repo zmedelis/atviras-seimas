@@ -1,0 +1,133 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<!--
+	<komitetas> elemente pateikiama informacija apie partiją
+		
+	<komitetas> atributai:
+	- id: unikalus komiteto numeris
+	- pavadinimas: komiteto pavadinimas
+	- trumpas: komiteto trumpas pavadinimas
+
+	<komitetas> tekstinis (CDATA) turinys teikia partijos aprašymą
+-->
+<lrs>
+	<komitetas id="1" pavadinimas="Aplinkos apsaugos komitetas" trumpas="Aplinkos apsaugos">
+	<![CDATA[Komiteto veiklos sritys apima aplinkos apsaugos, gamtos išteklių naudojimo, miškų ūkio, medžioklės ir žvejybos klausimus. Komitetas rengia ir nagrinėja su šiais klausimais susijusius pasiūlymus bei teisės aktų projektus, vykdo visų institucijų veiklos aplinkosaugos parlamentinę kontrolę, koordinuoja jų darbą rengiant įstatymų projektus komiteto kompetencijai priklausančiais klausimais.<br><br>
+	Adresas: Gedimino pr. 53, LT-01109, Vilnius, I rūmai, 402 kab.<br>
+	Telefonas: 8(5)2396559 (komiteto pirmininko)<br>
+	Faksas: 8(5)2396379<br>
+	E. paštas: <a href="mailto:gamta@lrs.lt?subject=www.manoseimas.lt internetinės svetainės lankytojo laiškas">gamta@lrs.lt</a><br>
+	Nuoroda į Seimo tinklalapį: <a href="http://www3.lrs.lt/pls/inter/w5_show?p_r=6136&p_k=1" target="_blank">Aplinkos apsaugos komitetas</a>]]>
+	</komitetas>
+	<komitetas id="2" pavadinimas="Audito komitetas" trumpas="Audito">
+	<![CDATA[Audito komitetas teikia rekomendacijas dėl Valstybės kontrolės parengtų metinių valstybinio audito programų projektų, teikia Seimui nutarimų dėl pavedimo jai atlikti valstybinį auditą, nenumatytą metinėje valstybinio audito programoje, projektus. Komitetas nagrinėja pateiktas valstybinio audito ataskaitas ir išvadas, rengia jų įgyvendinimo projektus. Audito komitetas atlieka Valstybės kontrolės, Valstybės turto fondo, Viešųjų pirkimų tarnybos funkcijų įgyvendinimo efektyvumo parlamentinę kontrolę. Komitetas nagrinėja, ar asignavimų valdytojai racionaliai ir efektyviai naudoja valstybės biudžeto asignavimus ir valstybės turtą, taip pat teikia pasiūlymus dėl Valstybės investicijų programos vykdymo.<br><br>
+	Adresas: Gedimino pr. 53, LT-01109, Vilnius, I rūmai, 318 kab.<br>
+	Telefonas: 8(5)2396686 (komiteto pirmininkės)<br>
+	Faksas: 8(5)2396312<br>
+	E. paštas: <a href="mailto:auditokt@lrs.lt?subject=www.manoseimas.lt internetinės svetainės lankytojo laiškas">auditokt@lrs.lt</a><br>
+	Nuoroda į Seimo tinklalapį: <a href="http://www3.lrs.lt/pls/inter/w5_show?p_r=6137&p_k=1" target="_blank">Audito komitetas</a>]]>
+	</komitetas>
+	<komitetas id="3" pavadinimas="Biudžeto ir finansų komitetas" trumpas="Biudžeto ir finansų">
+	<![CDATA[Komitetas svarsto valstybės biudžeto projektą, atlieka nuolatinę jo vykdymo kontrolę. Biudžeto ir finansų komitetas taip pat rengia ir svarsto teisės aktų projektus bei pasiūlymus biudžeto ir finansų klausimais, teikia pasiūlymus dėl mokesčių įstatymų projektų, iš biudžeto išlaikomų įstaigų finansavimo tvarkos, jų išlaidų normatyvų, savivaldybių biudžetų sudarymo normatyvų. Komitetas atlieka įvairių savo kuruojamoje srityje dirbančių institucijų parlamentinę kontrolę, teikia pasiūlymus dėl pavedimų Valstybės kontrolei atlikti valstybinį auditą bei svarsto šios institucijos pateikiamas išvadas.<br><br>
+	Adresas: Gedimino pr. 53, LT-01109, Vilnius, I rūmai, 323 kab.<br>
+	Telefonas: 8(5)2396637 (komiteto pirmininko)<br>
+	Faksas: 8(5)2396389<br>
+	E. paštas: <a href="mailto:gemork@lrs.lt?subject=www.manoseimas.lt internetinės svetainės lankytojo laiškas">gemork@lrs.lt</a><br>
+	Nuoroda į Seimo tinklalapį: <a href="http://www3.lrs.lt/pls/inter/w5_show?p_r=6138&p_k=1" target="_blank">Biudžeto ir finansų komitetas</a>]]>
+	</komitetas>
+	<komitetas id="4" pavadinimas="Ekonomikos komitetas" trumpas="Ekonomikos komitetas">
+	<![CDATA[Ekonomikos komitetas rengia ir svarsto teisės aktus ir pasiūlymus, susijusius su Lietuvos ūkio valstybinio reguliavimo energetikos, transporto, pramonės, prekybos, paslaugų bei verslo, turizmo srityse, valstybės turto valdymo, naudojimo, disponavimo juo ir privatizavimo, viešųjų pirkimų ir laisvųjų ekonominių zonų klausimais, taip pat ūkio subjektų veiklos teisiniu reglamentavimu, valstybės ir privataus kapitalo partneryste, viešųjų įstaigų veiklos teisiniu reglamentavimu. Ekonomikos komitetas teikia pasiūlymus dėl ilgalaikės Lietuvos ūkio plėtotės strategijos, makroekonominės, ūkio konkurencingumo, ūkio sektorių, smulkiojo ir vidutinio verslo, investicijų politikos formavimo. Komitetas taip pat atlieka ūkio valdymo ir kontrolės institucijų veiklos parlamentinę kontrolę. Dar viena Ekonomikos komiteto užduotis - bendradarbiauti su ūkio subjektais bei jiems ir darbuotojams atstovaujančiomis asociacijomis komiteto kompetencijai priskirtais klausimais.<br><br>
+	Adresas: Gedimino pr. 53, LT-01109, Vilnius, III rūmai, 315 kab.<br>
+	Telefonas: 8(5)2396625 (komiteto pirmininko)<br>
+	Faksas: 8(5)2396399<br>
+	E. paštas: <a href="mailto:ekonkt@lrs.lt?subject=www.manoseimas.lt internetinės svetainės lankytojo laiškas">ekonkt@lrs.lt</a><br>
+	Nuoroda į Seimo tinklalapį: <a href="http://www3.lrs.lt/pls/inter/w5_show?p_r=6139&p_k=1" target="_blank">Ekonomikos komitetas</a>]]>
+	</komitetas>
+	<komitetas id="5" pavadinimas="Europos reikalų komitetas" trumpas="Europos reikalų">
+	<![CDATA[Europos reikalų komiteto užduotys apima deramo Lietuvos interesų atstovavimo Europos Sąjungoje užtikrinimą, suvereniteto ir narystės teisių bei pareigų ES įgyvendinimo parlamentinę kontrolę. Komitetas prižiūri, kad būtų laiku ir tinkamai priimami įstatymai, įgyvendinantys Europos Sąjungos teisės aktus, dalyvauja Lietuvos pozicijos dėl pasiūlymų priimti Europos Sąjungos teisės aktus rengimo ir vertinimo procese. Europos reikalų komitetas bendradarbiauja su įvairiomis ES bei jos valstybių narių institucijomis. Tai yra vienintelis komitetas, kuriam Seimo narys gali priklausyti tuo pačiu metu būdamas kito komiteto nariu.<br><br>
+	Adresas: Gedimino pr. 53, LT-01109, Vilnius, I rūmai, 214 kab.<br>
+	Telefonas: 8(5)2396013 (komiteto pirmininko)<br>
+	Faksas: 8(5)2396409<br>
+	E. paštas: <a href="mailto:erk@lrs.lt?subject=www.manoseimas.lt internetinės svetainės lankytojo laiškas">erk@lrs.lt</a><br>
+	Nuoroda į Seimo tinklalapį: <a href="http://www3.lrs.lt/pls/inter/w5_show?p_r=6140&p_k=1" target="_blank">Europos reikalų komitetas</a>]]>
+	</komitetas>
+	<komitetas id="6" pavadinimas="Informacinės visuomenės plėtros komitetas" trumpas="Informacinės visuomenės plėtros">
+	<![CDATA[Komitetas teikia Seimui išvadas bei pasiūlymus dėl informacinės visuomenės plėtros politikos formavimo, ilgalaikės naujų technologijų bei informacinės visuomenės plėtros strategijos parengimo ir jos įgyvendinimo, rengia ir svarsto su šiais klausimais susijusius teisės aktus. Informacinės visuomenės plėtros komitetas taip pat kontroliuoja valstybės institucijų veiklą komiteto kuruojamų klausimų atžvilgiu bei nagrinėja lėšų, skirtų informacinės ir žinių visuomenės plėtrai panaudojimo efektyvumą.<br><br>
+	Adresas: Gedimino pr. 53, LT-01109, Vilnius, I rūmai, 422 kab.<br>
+	Telefonas: 8(5)2396624 (komiteto pirmininko)<br>
+	Faksas: 8(5)2396088<br>
+	E. paštas: <a href="mailto:ivpk@lrs.lt?subject=www.manoseimas.lt internetinės svetainės lankytojo laiškas">ivpk@lrs.lt</a><br>
+	Nuoroda į Seimo tinklalapį: <a href="http://www3.lrs.lt/pls/inter/w5_show?p_r=6141&p_k=1" target="_blank">Informacinės visuomenės plėtros komitetas</a>]]>
+	</komitetas>
+	<komitetas id="7" pavadinimas="Kaimo reikalų komitetas" trumpas="Kaimo reikalų">
+	<![CDATA[Kaimo reikalų komiteto užduotys apima žemės ūkį bei maisto pramonę reglamentuojančių teisės aktų rengimą bei svarstymą, pasiūlymų dėl agrarinės ir kaimo politikos bei žemės ūkio mokslo ir mokymo krypčių teikimą. Komitetas atlieka žemės ūkio ir maisto pramonės institucijų parlamentinę kontrolę, koordinuoja jų veiklą.<br><br>
+	Adresas: Gedimino pr. 53, LT-01109, Vilnius, III rūmai, 331 kab.<br>
+	Telefonas: 8(5)2396664 (komiteto pirmininko)<br>
+	Faksas: 8(5)2396419<br>
+	E. paštas: <a href="mailto:kaimorkt@lrs.lt?subject=www.manoseimas.lt internetinės svetainės lankytojo laiškas">kaimorkt@lrs.lt</a><br>
+	Nuoroda į Seimo tinklalapį: <a href="http://www3.lrs.lt/pls/inter/w5_show?p_r=6142&p_k=1" target="_blank">Kaimo reikalų komitetas</a>]]>
+	</komitetas>
+	<komitetas id="8" pavadinimas="Nacionalinio saugumo ir gynybos komitetas" trumpas="Nacionalinio saugumo ir gynybos">
+	<![CDATA[Nacionalinio saugumo ir gynybos komitetas svarsto ir rengia teisės aktus, reglamentuojančius krašto apsaugos, valstybės saugumo, civilinės saugos, valstybės sienų apsaugos ir Vidaus reikalų ministerijos Specialiųjų tyrimų tarnybos veiklos klausimus. Komitetas taip pat atlieka šiose srityse veikiančių valstybės institucijų parlamentinę kontrolę, koordinuoja jų darbą. Nacionalinio saugumo ir gynybos komitetas svarsto ir teikia išvadas dėl karo atašė, atstovų karinėse misijose skyrimo užsienio valstybėse.<br><br>
+	Adresas: Gedimino pr. 53, LT-01109, Vilnius, III rūmai, 513 kab.<br>
+	Telefonas: 8(5)2396652 (komiteto pirmininko)<br>
+	Faksas: 8(5)2396429<br>
+	E. paštas: <a href="mailto:nacsaukt@lrs.lt?subject=www.manoseimas.lt internetinės svetainės lankytojo laiškas">nacsaukt@lrs.lt</a><br>
+	Nuoroda į Seimo tinklalapį: <a href="http://www3.lrs.lt/pls/inter/w5_show?p_r=6143&p_k=1" target="_blank">Nacionalinio saugumo ir gynybos komitetas</a>]]>
+	</komitetas>
+	<komitetas id="9" pavadinimas="Socialinių reikalų ir darbo komitetas" trumpas="Socialinių reikalų ir darbo">
+	<![CDATA[Komiteto veikla apima socialinės apsaugos, gyventojų užimtumo, darbo santykių, socialinės rūpybos ir aprūpinimo butais klausimus. Komitetas rengia ir svarsto su šiais klausimais susijusius teisės aktus, koordinuoja šios srities valstybinių institucijų veiklą bei atlieka parlamentinę jų kontrolę. Komitetas svarsto Valstybinio socialinio draudimo fondo biudžetą bei nuolat prižiūri jo vykdymą.<br><br>
+	Adresas: Gedimino pr. 53, LT-01109, Vilnius, III rūmai, 611 kab.<br>
+	Telefonas: 8(5)2396780<br>
+	Faksas: 8(5)2396439<br>
+	E. paštas: <a href="mailto:socrdakt@lrs.lt?subject=www.manoseimas.lt internetinės svetainės lankytojo laiškas">socrdakt@lrs.lt</a><br>
+	Nuoroda į Seimo tinklalapį: <a href="http://www3.lrs.lt/pls/inter/w5_show?p_r=6144&p_k=1" target="_blank">Socialinių reikalų ir darbo komitetas</a>]]>
+	</komitetas>
+	<komitetas id="10" pavadinimas="Sveikatos reikalų komitetas" trumpas="Sveikatos reikalų">
+	<![CDATA[Sveikatos reikalų komitetas teikia pasiūlymus dėl valstybės sveikatos politikos formavimo, rengia ir svarsto šios srities teisės aktus, koordinuoja suinteresuotų valstybės institucijų darbą rengiant įstatymų projektus, atlieka šių institucijų parlamentinę kontrolę.<br><br>
+	Adresas: Gedimino pr. 53, LT-01109, Vilnius, III rūmai, 617 kab.<br>
+	Telefonas: 8(5)2396671 (komiteto pirmininko)<br>
+	Faksas: 8(5)2396449<br>
+	E. paštas: <a href="mailto:sveikrkt@lrs.lt?subject=www.manoseimas.lt internetinės svetainės lankytojo laiškas">sveikrkt@lrs.lt</a><br>
+	Nuoroda į Seimo tinklalapį: <a href="http://www3.lrs.lt/pls/inter/w5_show?p_r=6145&p_k=1" target="_blank">Sveikatos reikalų komitetas</a>]]>
+	</komitetas>
+	<komitetas id="11" pavadinimas="Švietimo, mokslo ir kultūros komitetas" trumpas="Švietimo, mokslo ir kultūros">
+	<![CDATA[Komitetas rengia ir svarsto švietimą, mokslą, kultūrą ir informacijos teikimą reglamentuojančius teisės aktus, atlieka šių sričių valstybės institucijų parlamentinę kontrolę. Šio komiteto užduotis taip pat yra rūpintis parama kultūrai tarnaujantiems asmenims, organizacijoms ir judėjimams.<br><br>
+	Adresas: Gedimino pr. 53, LT-01109, Vilnius, III rūmai, 413 kab.<br>
+	Telefonas: 8(5)2396723 (komiteto pirmininko)<br>
+	Faksas: 8(5)2396459<br>
+	E. paštas: <a href="mailto:sviemkkt@lrs.lt?subject=www.manoseimas.lt internetinės svetainės lankytojo laiškas">sviemkkt@lrs.lt</a><br>
+	Nuoroda į Seimo tinklalapį: <a href="http://www3.lrs.lt/pls/inter/w5_show?p_r=6146&p_k=1" target="_blank">Švietimo, mokslo ir kultūros komitetas</a>]]>
+	</komitetas>
+	<komitetas id="12" pavadinimas="Teisės ir teisėtvarkos komitetas" trumpas="Teisės ir teisėtvarkos">
+	<![CDATA[Teisės ir teisėtvarkos komitetas teikia pasiūlymus dėl valstybės teisinės politikos formavimo, rengia ir svarsto teisės aktus teisėtumo įgyvendinimo, teisėtvarkos stiprinimo ir nusikalstamumo kontrolės klausimais. Komitetas teikia išvadas dėl siūlomų Konstitucijos pakeitimų projektų, preliminariai vertina, ar svarstomi įstatymų projektai atitinka Konstituciją, teikia išvadas dėl Lietuvos įstatymų derinimo su Europos Sąjungos teise bei teisines išvadas dėl kitų komitetų rengiamų teisės aktų projektų. Taip pat Teisės ir teisėtvarkos komitetas teikia Seimui nuomonę dėl įvairių pakopų teismų teisėjų, prokurorų, kuriuos skiria Seimas arba kurių paskyrimui reikalingas Seimo pritarimas, kandidatūrų, atlieka teisėsaugos institucijų, išskyrus teismus, veiklos parlamentinę kontrolę.<br><br>
+	Adresas: Gedimino pr. 53, LT-01109, Vilnius, I rūmai, 431 kab.<br>
+	Telefonas: 8(5)2396011 (komiteto pirmininko)<br>
+	Faksas: 8(5)2396469<br>
+	E. paštas: <a href="mailto:teiseskt@lrs.lt?subject=www.manoseimas.lt internetinės svetainės lankytojo laiškas">teiseskt@lrs.lt</a><br>
+	Nuoroda į Seimo tinklalapį: <a href="http://www3.lrs.lt/pls/inter/w5_show?p_r=6147&p_k=1" target="_blank">Teisės ir teisėtvarkos komitetas</a>]]>
+	</komitetas>
+	<komitetas id="13" pavadinimas="Užsienio reikalų komitetas" trumpas="Užsienio reikalų">
+	<![CDATA[Užsienio reikalų komitetas rengia išvadas dėl Lietuvos Respublikos tarptautinių sutarčių ratifikavimo ir denonsavimo bei kitų Seime svarstomų užsienio politikos klausimų, rengia ir svarsto su šiais klausimais susijusių teisės aktų projektus. Komitetas koordinuoja įvairių su jo kompetencijai priskirtais klausimais dirbančių institucijų veiklą, vykdo jų parlamentinę kontrolę. Kita jo užduotis – plėtoti ryšius su užsienyje gyvenančiais lietuviais, taip pat nagrinėti migracijos reguliavimo problemas. Komitetas svarsto ir teikia Vyriausybei rekomendacijas dėl Lietuvos Respublikos diplomatinių santykių užmezgimo ir diplomatinių atstovybių atidarymo užsienyje, svarsto užsienio reikalų ministro pasiūlymus teikti išvadas ir rekomendacijas dėl Lietuvos Respublikos diplomatinių atstovų skyrimo užsienio valstybėse ir tarptautinėse organizacijose bei jų atšaukimo. Užsienio reikalų komitetas taip pat svarsto su Europos Sąjungos teisės aktų priėmimu susijusius klausimus.<br><br>
+	Adresas: Gedimino pr. 53, LT-01109, Vilnius, I rūmai, 435 kab.<br>
+	Telefonas: 8(5) 2396699 (komiteto pirmininko)<br>
+	Faksas: 8(5)2396479<br>
+	E. paštas: <a href="mailto:urk@lrs.lt?subject=www.manoseimas.lt internetinės svetainės lankytojo laiškas">urk@lrs.lt</a><br>
+	Nuoroda į Seimo tinklalapį: <a href="http://www3.lrs.lt/pls/inter/w5_show?p_r=6148&p_k=1" target="_blank">Užsienio reikalų komitetas</a>]]>
+	</komitetas>
+	<komitetas id="14" pavadinimas="Žmogaus teisių komitetas" trumpas="Žmogaus teisių">
+	<![CDATA[Komitetas rengia ir svarsto teisės aktus susijusius su piliečių teisių garantijomis, Lietuvoje gyvenančių tautybių santykių reguliavimu, užsienyje gyvenančių lietuvių reikalais, teikia pasiūlymus valstybės politikos šiais klausimais formavimui, atlieka šioje srityje dirbančių institucijų parlamentinę kontrolę. Žmogaus teisių komitetas taip pat prižiūri Seimo kontrolierių darbą.<br><br>
+	Adresas: Gedimino pr. 53, LT-01109, Vilnius, III rūmai, 503 kab.<br>
+	Telefonas: 8(5)2396736 (komiteto pirmininko)<br>
+	Faksas: 8(5)2396499<br>
+	E. paštas: <a href="mailto:zmteiskt@lrs.lt?subject=www.manoseimas.lt internetinės svetainės lankytojo laiškas">zmteiskt@lrs.lt</a><br>
+	Nuoroda į Seimo tinklalapį: <a href="http://www3.lrs.lt/pls/inter/w5_show?p_r=6150&p_k=1" target="_blank">Žmogaus teisių komitetas</a>]]>
+	</komitetas>
+	<komitetas id="15" pavadinimas="Valstybės valdymo ir savivaldybių komitetas" trumpas="Valstybės valdymo ir savivaldybių">
+	<![CDATA[Komitetas rengia ir svarsto teisės aktų projektus valstybės valdymo bei viešojo administravimo, teritorinių struktūrų pertvarkymo, vietos savivaldos darbo organizavimo, finansavimo ir ekonominio savarankiškumo klausimais, teikia pasiūlymus valstybės politikos formavimui šiose srityse. Valstybės valdymo ir savivaldybių komitetas tvirtina Seimui teikiamus Vyriausybės pasiūlymus dėl valstybės teritorijos administracinio suskirstymo ir atskirų savivaldybių ar apskričių teritorijų ribų nustatymo. Komitetas palaiko ryšį su Lietuvos savivaldybių asociacija, teikia jai įvairias rekomendacijas ir svarsto jos pateiktus pasiūlymus.<br><br>
+	Adresas: Gedimino pr. 53, LT-01109, Vilnius, III rūmai, 708 kab.<br>
+	Telefonas: 8(5)2396703 (komiteto pirmininko)<br>
+	Faksas: 8(5)2396489<br>
+	E. paštas: <a href="mailto:vrsavkt@lrs.lt?subject=www.manoseimas.lt internetinės svetainės lankytojo laiškas">vrsavkt@lrs.lt</a>, <a href="mailto:vvsk@lrs.lt?subject=www.manoseimas.lt internetinės svetainės lankytojo laiškas">vvsk@lrs.lt</a><br>
+	Nuoroda į Seimo tinklalapį: <a href="hhttp://www3.lrs.lt/pls/inter/w5_show?p_r=6149&p_k=1" target="_blank">Valstybės valdymo ir savivaldybių komitetas</a>]]>
+	</komitetas>
+</lrs>

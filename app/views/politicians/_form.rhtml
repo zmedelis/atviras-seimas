@@ -1,0 +1,22 @@
+<%= error_messages_for 'politician' %>
+
+<!--[form:politician]-->
+<p><label for="politician_full_name">Full name</label><br/>
+<%= text_field 'politician', 'full_name'  %></p>
+
+<p><label for="politician_from">From</label><br/>
+<%= date_select 'politician', 'from'  %></p>
+
+<p><label for="politician_to">To</label><br/>
+<%= date_select 'politician', 'to'  %></p>
+
+<p><label for="politician_email">Email</label><br/>
+<%= text_field 'politician', 'email'  %></p>
+
+<p><label for="politician_constituency">Constituency</label><br/>
+<%= text_field 'politician', 'constituency'  %></p>
+
+<p><label for="politician_party_candidate">Party candidate</label><br/>
+<%= text_field 'politician', 'party_candidate'  %></p>
+<!--[eoform:politician]-->
+

@@ -1,0 +1,19 @@
+<%if roles.size > 0 %>
+  <p><b><%=title%></b><p>
+  <table style="margin-bottom:15px; width:750px">
+  <colgroup>
+  <col width="10%">
+  <col width="10%">
+  <col width="55%">
+  <col width="25%">
+  </colgroup>
+  <% for role in roles %>
+      <tr>
+        <td><%=h role.from%></td>
+        <td><%=h role.to%></td>
+        <td><%=h role.description %></td>
+        <td><%=role.title%></td>
+      </tr>
+  <%end%>
+  </table>
+<%end%>

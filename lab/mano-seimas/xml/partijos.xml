@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+	<partija> elemente pateikiama informacija apie partiją
+		
+	<partija> atributai:
+	- id: unikalus partijos numeris
+	- pavadinimas: partijos pavadinimas
+	- trumpas: partijos trumpas pavadinimas (turi atitikti su Seimo nario partinės priklausomybės duomenimis)
+
+	<partija> tekstinis (CDATA) turinys teikia partijos aprašymą
+-->
+<lrs>
+	<partija id="1" pavadinimas="Lietuvos socialdemokratų partija" trumpas="LSDP">
+	<![CDATA[
+	Dabartinė Lietuvos socialdemokratų partija yra 2001 metais susijungusių dviejų politinių partijų palikuonė: Lietuvos socialdemokratų partijos, įsteigtos 1896, vėliau 1989 metais atkurtos, bei Lietuvos demokratinės darbo partijos (LDDP). Pastaroji buvo Lietuvos komunistų partijos, įkurtos 1918 metais veiklos tęsėja, pavadinimą pakeitusi 1990 metais. Šiuo metu socialdemokratams vadovauja Ministras Pirmininkas Gediminas Kirkilas. Partijos atstovai Seime dirba nuo pat 1990 metų.<br><br>
+	Partijos rinkiminio sąrašo atstovai atsisakė suteikti informaciją apie rėmėjus, nurodydami, kad pateiks juos tik Vyriausiajai rinkimų komisijai.
+<br><br>
+	Centrinė būstinė: B. Radvilaitės g. 1, LT-01124, Vilnius<br>
+	Telefonas: 8(5)2613907<br>
+	E. paštas: <a href="mailto:info@lsdp.lt?subject=www.manoseimas.lt internetinės svetainės lankytojo laiškas">info@lsdp.lt</a><br>
+	Interneto svetainė: <a href="http://www.lsdp.lt" target="_blank">http://www.lsdp.lt</a>
+	]]>
+	</partija>
+	<partija id="2" pavadinimas="Lietuvos rusų sąjunga" trumpas="LRS">
+	<![CDATA[
+	Partija įsteigta 1995 metais, o 2000 metų jos atstovai – išrinkti pagal koalicinį sąrašą su LSDP ir NS(SL) – dirbo Seime. Dabartinis Lietuvos rusų sąjungos pirmininkas – Sergej Dmitrijev.<br><br>
+	Partijos rinkiminio sąrašo atstovai informacijos apie rėmėjus nepateikė.<br><br>
+	Centrinė būstinė: Savanorių pr. 11-70, LT-03116, Vilnius<br>
+	Telefonas: 8(5)2624248<br>
+	E. paštas: <a href="http://www.sojuzru.lt/index.php?name=Contact" target="_blank">spauskite čia</a><br>
+	Interneto svetainė: <a href="http://www.sojuzru.lt" target="_blank">http://www.sojuzru.lt</a>
+	]]>
+	</partija>
+	<partija id="3" pavadinimas="'Fronto' partija" trumpas="FP">
+	<![CDATA[
+	Partija įkurta 2008 metais. Seimo rinkimuose iki šiol nedalyvavo, savo atstovų jame neturi. Partijos pirmininkas – Algirdas Paleckis, buvęs šios kadencijos Seimo narys ir Lietuvos socialdemokratų partijos narys.<br><br>
+	Partijos rinkiminio sąrašo atstovai informacijos apie rėmėjus nepateikė, nurodydami, kad pateiks, kai šią informaciją turės.<br><br>
+	Centrinė būstinė: Švitrigailos 16, LT-03223, Vilnius<br>
+	Telefonas: 8(5)2330458, 8(800)10013 (nemokama karštoji linija)<br>
+	Faksas: 8(5)2330458<br>
+	E. paštas: <a href="mailto:info@frontas.eu?subject=www.manoseimas.lt internetinės svetainės lankytojo laiškas">info@frontas.eu</a><br>
+	Interneto svetainė: <a href="http://partijafrontas.lt" target="_blank">http://partijafrontas.lt</a>
+	]]>
+	</partija>
+	<partija id="4" pavadinimas="Lietuvos centro partija" trumpas="LCP">
+	<![CDATA[
+	Nacionalinė centro partija įkurta 2003 metų vasarą. Partija siekė suvienyti Lietuvos centro sąjungos narius, nepritarusius Centro sąjungos panaikinimui ir susijungimui su Liberalų sąjunga į Lietuvos liberalų ir centro sąjungą 2003 metais. 2005 metais partija persivadino Lietuvos centro partija. Seime savo atstovų neturi. Pirmininkas – Arūnas Grumadas.<br><br>
+	Partijos rinkiminio sąrašo atstovai informacijos nepateikė, nurodydami, kad kadangi Lietuvos Respublikos įstatymai nesuteikia partijoms galimybės gauti finansine paramą iš valstybės, Lietuvos centro partijos rinkiminė kampanija daugiausiai finansuojama iš narių lėšų.<br><br>
+	Centrinė būstinė: K. Donelaičio g. 6-226, LT-44213, Kaunas<br>
+	Telefonas: 8(5)2122332<br>
+	E. paštas: <a href="mailto:sekretorius@centropartija.lt?subject=www.manoseimas.lt internetinės svetainės lankytojo laiškas">sekretorius@centropartija.lt</a><br>
+	Interneto svetainė: <a href="http://www.centropartija.lt" target="_blank">http://www.centropartija.lt</a>
+	]]>
+	</partija>
+	<partija id="5" pavadinimas="Tėvynės sąjunga - Lietuvos krikščionys demokratai" trumpas="TS-LKD">
+	<![CDATA[
+	Partija Tėvynės sąjunga - Lietuvos krikščionys demokratai gimė 2008 metais susijungus dviems politinėms partijoms – Tėvynės sąjungai (konservatoriai, politiniai kaliniai ir tremtiniai, krikščioniškieji demokratai) ir Lietuvos krikščionims demokratams. Lietuvos krikščionių demokratų sąjunga (nuo 1917 – Lietuvos krikščionių demokratų partija) įsteigta dar praėjusio amžiaus pradžioje - 1905 metais. Tiesa, dar "Smetonos laikais" partijos veikla buvo apribota ir vėliau uždrausta. Partija atkurta 1989 metais. 2001 metais prie jos prisijungė Krikščionių demokratų sąjunga, jungtinė partija pavadinta Lietuvos krikščionimis demokratais. Tuo tarpu Tėvynės sąjunga įkurta 1993 metų pavasarį ir gali būti laikoma Sąjūdžio politine "palikuone". 2003 metais ši partijs susijungė su Lietuvos dešiniųjų sąjunga, o 2004 – su Lietuvos politinių kalinių ir tremtinių sąjunga. 2008 metais prie jos dar prisijungė Lietuvių tautininkų sąjunga. Jungtinės partijos Tėvynės sąjunga - Lietuvos krikščionys demokratai pirmininkas yra Andrius Kubilius, dabartinio Seimo narys, opozicijos lyderis ir Seimo Pirmininko pavaduotojas. Partijos nariai Seime dirba nuo pat 1990 metų.<br><br>
+	Partijos rinkiminio sąrašo atstovai pateikė informaciją apie rėmėjus. Ją galima rasti kiekvieno kandidato partijos rėmėjų sąraše.<br><br>
+	Centrinė būstinė: L. Stuokos-Gucevičiaus g. 11, LT- 01122, Vilnius<br>
+	Telefonas: 8(5)2121657<br>
+	Faksas: 8(5)2784722<br>
+	E. paštas: <a href="mailto:sekretoriatas@tsajunga.lt?subject=www.manoseimas.lt internetinės svetainės lankytojo laiškas">sekretoriatas@tsajunga.lt</a><br>
+	Interneto svetainė: <a href="http://www.tsajunga.lt" target="_blank">http://www.tsajunga.lt</a>
+	]]>
+	</partija>
+	<partija id="6" pavadinimas="Naujoji sąjunga (socialliberalai)" trumpas="NS(SL)">
+	<![CDATA[
+	Partija įsteigta 1998 metais, o jos atstovai Seime dirba nuo 2000 metų. 2006 metais prie Naujosios sąjungos prisijungė Teisingumo partija. Patijos pirmininkas nuo pat įkūrimo yra Artūras Paulauskas, šios kadencijos Seimo narys, buvęs Seimo Pirmininkas ir dabartinis Aplinkos ministras.<br><br>
+	Partijos rinkiminio sąrašo atstovai atsisakė pateikti informaciją apie rėmėjus.<br><br>
+	Centrinė būstinė: Gedimino pr. 10/1, LT-01103, Vilnius<br>
+	Telefonas: 8(5)2107600<br>
+	Faksas: 8(5)2107602<br>
+	E. paštas: <a href="mailto:centras@nsajunga.lt?subject=www.manoseimas.lt internetinės svetainės lankytojo laiškas">centras@nsajunga.lt</a><br>
+	Interneto svetainė: <a href="http://www.nsajunga.lt" target="_blank">http://www.nsajunga.lt</a>
+	]]>
+	</partija>
+	<partija id="7" pavadinimas="Pilietinės demokratijos partija" trumpas="PDP">
+	<![CDATA[
+	Pilietinės demokratijos partija įsikūrė 2006 metais, kai nuo Darbo partijos atsiskyrė kai kurie jos vadovo Viktoro Uspaskich veikla nusivylę partijos nariai. Partija buvo įsteigta jau egzistavusios Lietuvos piliečių sąjungos pagrindu. Pavieniai Pilietinės demokratijos partijos atstovai dirba šios kadencijos parlamente. Partijos pirmininkas – Algimantas Matulevičius, šios kadencijos Seimo narys, buvęs Nacionalinio saugumo ir gynybos komiteto pirmininkas.<br><br>
+	Partijos rinkiminio sąrašo atstovai informacijos apie rėmėjus dar nepateikė, nurodydami, kad pateiks, kai šią informaciją turės.<br><br>
+	Centrinė būstinė: Kaštonų g. 4, LT-01107, Vilnius<br>
+	Telefonas: 8(5)2040204<br>
+	Faksas: 8(5)2040205<br>
+	E. paštas: <a href="mailto:pdpsekretoriatas@gmail.com?subject=www.manoseimas.lt internetinės svetainės lankytojo laiškas">pdpsekretoriatas@gmail.com</a><br>
+	Interneto svetainė: <a href="http://www.pdp.lt" target="_blank">http://www.pdp.lt</a>
+	]]>
+	</partija>
+	<partija id="8" pavadinimas="Lietuvos lenkų rinkimų akcija" trumpas="LLRA">
+	<![CDATA[
+	Lietuvos lenkų rinkimų akcija įkurta 1995 metais, o jos atstovai Seime dirba nuo 1996 metų. Partijai vadovauja Valdemar Tomaševski, šios kadencijos Seimo narys.<br><br>
+	Partijos rinkiminio sąrašo atstovai atsisakė pateikti duomenis apie rėmėjus rinkimų metu, nurodydami, kad juos pateiks tik Vyriausiajai rinkimų komisijai.<br><br>
+	Centrinė būstinė: Pilies g. 16, LT-01123, Vilnius<br>
+	Telefonas: 8(5)2791887<br>
+	Faksas: 8(5)2331266<br>
+	E. paštas: <a href="mailto:info@awpl.lt?subject=www.manoseimas.lt internetinės svetainės lankytojo laiškas">info@awpl.lt</a><br>
+	Interneto svetainė: <a href="http://www.awpl.lt" target="_blank">http://www.awpl.lt</a>
+	]]>
+	</partija>
+	<partija id="9" pavadinimas="Tautos prisikėlimo partija" trumpas="TPP">
+	<![CDATA[
+	Tautos prisikėlimo partija įsikūrė 2008 metais, savo atstovų parlamente neturi. Partija turi nemažai "šou pasauliui" priklausančių narių. Partijai vadovauja Arūnas Valinskas, žinomas televizijos laidų ir renginių vedėjas.<br><br>
+	Partijos rinkiminio sąrašo atstovai atsisakė pateikti duomenis apie rėmėjus rinkimų metu, nurodydami, kad juos pateiks tik Vyriausiajai rinkimų komisijai.<br><br>
+	Centrinė būstinė: Pranciškonų 4A–10, LT- 01133, Vilnius<br>
+	Telefonas: 8(699)55296<br>
+	E. paštas: <a href="mailto:bustine@prisikelimopartija.lt?subject=www.manoseimas.lt internetinės svetainės lankytojo laiškas">bustine@prisikelimopartija.lt</a><br>
+	Interneto svetainė: <a href="http://www.prisikelimopartija.lt" target="_blank">http://www.prisikelimopartija.lt</a>
+	]]>
+	</partija>
+	<partija id="10" pavadinimas="Darbo partija" trumpas="DP">
+	<![CDATA[
+	Darbo partija rinkimuose sudarė koaliciją su savo "jaunimo organizacija" Leiboristų partija - "Koalicija Darbo partija + jaunimas". Šios koalicijos pagrindinė politinė jėga - Darbo partija - buvo įsteigta 2003 metais, o jau nuo 2004 metų jos atstovai dirba Seime. 2004 metų Seimo rinkimuose partija laimėjo daugiausiai atstovų, tačiau vėliau nuo jos atskilo dalis narių ir įkūrė Piietinės demokratijos partiją. Darbo partijos pirmininkas - Viktoras Uspaskich, buvęs šios kadencijos Seimo narys ir Ūkio ministras.  Kita koalicijos politinė jėga - Leiboristų partija - buvo įkurta 2008 metais, jai vadovauja Viktoras Fiodorovas.<br><br>
+	Partijos rinkiminio sąrašo atstovai atsisakė pateikti duomenis apie rėmėjus rinkimų metu, nurodydami, kad juos pateiks tik Vyriausiajai rinkimų komisijai.<br><br>
+	Centrinė būstinė: Ankštoji g. 3, LT-01109, Vilnius (Darbo partija); Pakalnės g. 7-1, LT-01112, Vilnius (Leiboristų partija)<br>
+	Telefonas: 8(5)2107152<br>
+	Faksas: 8(5)2107153<br>
+	E. paštas: <a href="mailto:info@darbopartija.lt?subject=www.manoseimas.lt internetinės svetainės lankytojo laiškas">info@darbopartija.lt</a><br>
+	Interneto svetainė: <a href="http://www.darbopartija.lt" target="_blank">http://www.darbopartija.lt</a>
+	]]>
+	</partija>
+	<partija id="11" pavadinimas="Lietuvos Respublikos liberalų sąjūdis" trumpas="LRLS">
+	<![CDATA[
+	Lietuvos Respublikos liberalų sąjūdis įsikūrė 2006 metais skilus Liberalų ir centro sąjungai. Partija yra atstovaujama šios kadencijos parlamente, jame turi savo frakciją. Partijos pirmininkas – Eligijus Masiulis, šios kadencijos Seimo narys.<br><br>
+	Partijos rinkiminio sąrašo atstovai informacijos apie rėmėjus dar nepateikė, nurodydami, kad pateiks, kai šią informaciją turės.<br><br>
+	Centrinė būstinė: Sėlių g. 48, LT-08125, Vilnius<br>
+	Telefonas: 8(5)2496959<br>
+	Faksas: 8(5)2496959<br>
+	E. paštas: <a href="mailto:info@liberalusajudis.lt?subject=www.manoseimas.lt internetinės svetainės lankytojo laiškas">info@liberalusajudis.lt</a><br>
+	Interneto svetainė: <a href="http://www.liberalusajudis.lt" target="_blank">http://www.liberalusajudis.lt</a>
+	]]>
+	</partija>
+	<partija id="12" pavadinimas="Lietuvos valstiečių liaudininkų sąjunga" trumpas="LVLS">
+	<![CDATA[
+	Lietuvos valstiečių liaudininkų sąjunga (tuomet – Valstiečių ir Naujosios demokratijos partijų sąjunga) įsikūrė 2001 metais susijungus Lietuvos valstiečių partijai bei Naujosios demokratijos partijai. Lietuvos valstiečių sąjunga (nuo 1994 – Lietuvos valstiečių partija) atsikūrė 1990 metais, tęsdama 1905 metais įkurtos partijos tuo pačiu pavadinimu veiklą. Tuo tarpu Naujosios demokratijos partija (iš pradžių – Moterų partija, vėliau – Naujoji demokratija – Moterų partija) įsikūrė 1995 metais. Jungtinės partijos pirmininkė yra Kazimira Danutė Prunskienė, šios kadencijos Seimo narė ir Žemės ūkio ministrė. Partija šiuo metu yra atstovaujama Lietuvos Respublikos Seime.<br><br>
+	Partijos rinkiminio sąrašo atstovai atsisakė pateikti duomenis apie rėmėjus rinkimų metu, nurodydami, kad juos pateiks tik Vyriausiajai rinkimų komisijai.<br><br>
+	Centrinė būstinė: Geležinio Vilko g. 6, LT-03150, Vilnius<br>
+	Telefonas: 8(5)2120821<br>
+	Faksas: 8(5)2120822<br>
+	E. paštas: <a href="mailto:info@lvls.lt?subject=www.manoseimas.lt internetinės svetainės lankytojo laiškas">info@lvls.lt</a><br>
+	Interneto svetainė: <a href="http://www.lvls.lt" target="_blank">http://www.lvls.lt</a>
+	]]>
+	</partija>
+	<partija id="13" pavadinimas="Partija 'Tvarka ir teisingumas'" trumpas="TT">
+	<![CDATA[
+	Partija Tvarka ir teisingumas (tuomet – Liberalų demokratų partija) sukurta 2002 metais, skilus Lietuvos liberalų sąjungai. 2006 metais partija pakeitė pavadinimą į Tvarka ir teisingumas (liberalai demokratai), o 2008 metais – į Tvarka ir teisingumas. Nuo pat įkūrimo partija atstovaujama Seime, o jos pirmininkas yra Rolandas Paksas - 2004 m. pavasarį apkaltos proceso metu nušalintas Lietuvos Respublikos Prezidentas.<br><br>
+	Partijos rinkiminio sąrašo atstovai informacijos apie rėmėjus nepateikė.<br><br>
+	Centrinė būstinė: Gedimino pr. 10/ Totorių g. 1, LT-01103, Vilnius<br>
+	Telefonas: 8(5)2691618<br>
+	Faksas: 8(5)2691618<br>
+	E. paštas: <a href="mailto:tt@tvarka.lt?subject=www.manoseimas.lt internetinės svetainės lankytojo laiškas">tt@tvarka.lt</a><br>
+	Interneto svetainė: <a href="http://www.ldp.lt/" target="_blank">http://www.ldp.lt/</a>
+	]]>
+	</partija>
+	<partija id="14" pavadinimas="Liberalų ir centro sąjunga" trumpas="LiCS">
+	<![CDATA[
+	Liberalų ir centro sąjunga įsikūrė 2003 metais susijungus Lietuvos liberalų sąjungai (įkurtai 1990 metais), Lietuvos centro sąjungai (įkurtai 1993 metais) ir Moderniųjų krikščionių demokratų sąjungai (įkurtai 1998 metais). Liberalų ir centro sąjunga turi savo frakciją Seime. Partijai vadovauja Artūras Zuokas, buvęs Vilniaus meras.<br><br>
+	Partijos rinkiminio sąrašo atstovai informacijos apie rėmėjus dar nepateikė, nurodydami, kad pateiks, kai šią informaciją turės.<br><br>
+	Centrinė būstinė: Vilniaus g. 22/1, LT-01119, Vilnius<br>
+	Telefonas: 8(5)2313264<br>
+	Faksas: 8(5)2619363<br>
+	E. paštas: <a href="mailto:info@lics.lt?subject=www.manoseimas.lt internetinės svetainės lankytojo laiškas">info@lics.lt</a><br>
+	Interneto svetainė: <a href="http://www.lics.lt" target="_blank">http://www.lics.lt</a>
+	]]>
+	</partija>
+	<partija id="15" pavadinimas="Partija 'Jaunoji Lietuva'" trumpas="JL">
+	<![CDATA[
+	Politinė partija „Jaunoji Lietuva“ (iš pradžių - Lietuvių Nacionalinė Partija „Jaunoji Lietuva“, vėliau – „Jaunosios Lietuvos“ ir naujųjų tautininkų sąjunga) įsikūrė 1994 metais prieš tai veikusios jaunimo organizacijos tuo pačiu pavadinimu pagrindu. Partijos pirmininkas - Stanislovas Buškevičius, Kauno miesto savivaldybės mero pavaduotojas, buvęs Seimo narys.<br><br>
+	Partijos rinkiminio sąrašo atstovai informacijos apie rėmėjus nepateikė.<br><br>
+	Centrinė būstinė: Kurtinių g. 1-1, LT-45431, Kaunas<br>
+	E. paštas: <a href="mailto:jaunojilietuva@gmail.com?subject=www.manoseimas.lt internetinės svetainės lankytojo laiškas">jaunojilietuva@gmail.com</a><br>
+	Interneto svetainė: <a href="http://www.jaunojilietuva.lt" target="_blank">http://www.jaunojilietuva.lt</a>
+	]]>
+	</partija>
+	<partija id="16" pavadinimas="Lietuvos socialdemokratų sąjunga" trumpas="LSDS">
+	<![CDATA[
+	Lietuvos socialdemokratų sąjunga (tuomet – „Socialdemokratija 2000“) susikūrė 1999 metais nuo Lietuvos socialdemokratų partijos atskilusių narių pagrindu. 2003 metais partija pasirinko dabartinį pavadinimą. Jos pirmininkas – Arvydas Akstinavičius. Partija Seime neatstovaujama.<br><br>
+	Partijos rinkiminio sąrašo atstovai tikslią informaciją pateikė tik apie pagrindinį rėmėją, o apie kitus rėmėjus nurodė tik apibendrintus duomenis.<br><br>
+	Centrinė būstinė: Vilniaus g. 22, LT-01119, Vilnius<br>
+	Telefonas: 8(5)2122157<br>
+	Faksas: 8(5)2122157<br>
+	E. paštas: <a href="mailto:info@lsds.lt?subject=www.manoseimas.lt internetinės svetainės lankytojo laiškas">info@lsds.lt</a><br>
+	Interneto svetainė: <a href="http://www.lsds.lt" target="_blank">http://www.lsds.lt</a>
+	]]>
+	</partija>
+</lrs>

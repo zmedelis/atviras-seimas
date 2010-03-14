@@ -1,0 +1,239 @@
+Afganistanas,AFG,AF,Afganistano Islamo Valstybė
+Airija,IRL,IE,Airijos Respublika
+Albanija,ALB,AL,Albanijos Respublika
+Alžyras,ALG,DZ,Alžyro Liaudies Demokratinė Respublika
+Amerikos Samoa,ASA,AS,Rytų Samoa
+Andora,AND,AD,Andoros Kunigaikštystė
+Angilija,-,AI,- 	 
+Angola,ANG,AO,Angolos Respublika
+Antarktis,-,AQ,Antarktida
+Antigva ir Barbuda,ANT,AG,- 	 
+Argentina,ARG,AR,Argentinos Respublika
+Armėnija,ARM,AM,Armėnijos Respublika
+Aruba,ARU,AW,- 	 
+Australija,AUS,AU,- 	 
+Austrija,AUT,AT,Austrijos Respublika
+Azerbaidžanas,AZE,AZ,Azerbaidžano Respublika
+Bahamos,BAH,BS,Bahamų Sandrauga; Bahamai
+Bahreinas,BRN,BH,Bahreino Karalystė
+Baltarusija,BLR,BY,Baltarusijos Respublika
+Bangladešas,BAN,BD,Bangladešo Liaudies Respublika
+Barbadosas,BAR,BB,- 	 
+Belgija,BEL,BE,Belgijos Karalystė
+Belizas,BIZ,BZ,-	 
+Beninas,BEN,BJ,Benino Respublika
+Bermuda,BER,BM,Bermudai
+Bisau Gvinėja,GBS,GW,Bisau Gvinėjos Respublika
+Bolivija,BOL,BO,Bolivijos Respublika
+Bosnija ir Hercegovina,BIH,BA,Bosnijos ir Hercegovinos Respublika
+Botsvana,BOT,BW,Botsvanos Respublika
+Buvė,-,BV,Buvė sala
+Brazilija,BRA,BR,Brazilijos Federacinė Respublika
+Brunėjus,BRU,BN,Brunėjaus Darusalamas
+Bulgarija,BUL,BG,Bulgarijos Respublika
+Burkina Fasas,BUR,BF,- 	 
+Burundis,BDI,BI,Burundžio Respublika
+Butanas,BHU,BT,Butano Karalystė
+Centrinės Afrikos Respublika,CAF,CF,- 	 
+Čadas,CHA,TD,Čado Respublika
+Čekija,CZE,CZ,Čekijos Respublika
+Čilė,CHI,CL,Čilės Respublika
+Danija,DEN,DK,Danijos Karalystė
+Didžiosios Britanijos Mergelių salos,IVB,VG,- 	 
+Dominika,DMA,DM,Dominikos Sandrauga
+Dominikos Respublika,DOM,DO,- 	 
+Dramblio Kaulo Krantas,CIV,CI,Dramblio Kaulo Kranto Respublika
+Džibutis,DJI,DJ,Džibučio Respublika
+Egiptas,EGY,EG,Egipto Arabų Respublika
+Ekvadoras,ECU,EC,Ekvadoro Respublika
+Eritrėja,ERI,ER,- 	 
+Estija,EST,EE,Estijos Respublika
+Etiopija,ETH,ET,Etiopijos Federacinė Demokratinė Respublika
+Falklando salos,-,FK,Malvinų salos
+Farerų salos,-,FO,- 	 
+Fidžis,FIJ,FJ,Fidžio Salų Respublika
+Filipinai,PHI,PH,Filipinų Respublika
+Gabonas,GAB,GA,Gabono Respublika
+Gajana,GUY,GY,Gajanos Respublika
+Gambija,GAM,GM,Gambijos Respublika
+Gana,GHA,GH,Ganos Respublika
+Gibraltaras,-,GI,- 	 
+Graikija,GRE,GR,Graikijos Respublika
+Grenada,GRN,GD,- 	 
+Grenlandija,-,GL,- 	 
+Gruzija,GEO,GE,- 	 
+Guamas,GUM,GU,,- 	 
+Prancūzija Gvadelupa,-,GP,- 	 
+Gvatemala,GUA,GT,Gvatemalos Respublika
+Gvinėja,GUI,GN,Gvinėjos Respublika
+Haitis,HAI,HT,Haičio Respublika
+Herdo ir Makdonaldo salos,-,HM,- 	 
+Hondūras,HON,HN,Hondūro Respublika
+Honkongas (Kinija),HKG,HK,Siangangas
+Indija,IND,IN,Indijos Respublika
+Indijos vandenyno britų salos,-,IO,-
+Indonezija,INA,ID,Indonezijos Respublika
+Irakas,IRQ,IQ,Irako Respublika
+Iranas,IRI,IR,Irano Islamo Respublika
+Islandija,ISL,IS,Islandijos Respublika
+Ispanija,ESP,ES,Ispanijos Karalystė
+Italija,ITA,IT,Italijos Respublika
+Izraelis,ISR,IL,Izraelio Valstybė
+Jamaika,JAM,JM,- 	 
+Japonija,JPN,JP,- 	 
+Jemenas,YEM,YE,Jemeno Respublika
+Jordanija,JOR,JO,Jordanijos Hašimitų Karalystė
+Jungtiniai Arabų Emiratai,UAE,AE,- 	 
+Jungtinė Karalystė,GBR,GB,Jungtinė Didžiosios Britanijos ir Šiaurės Airijos Karalystė
+JAV,USA,US,Jungtinės Amerikos Valstijos
+Juodkalnija,-,MGO,- 	 
+Kaimanų salos,CAY,KY,- 	 
+Kalėdų sala,-,CX,- 	 
+Kambodža,CAM,KH,Kambodžos Karalystė
+Kamerūnas,CMR,CM,Kamerūno Respublika
+Kanada,CAN,CA,- 	 
+Kataras,QAT,QA,Kataro Valstybė
+Kazachija,KAZ,KZ,Kazachstano Respublika
+Kenija,KEN,KE,Kenijos Respublika
+Kinija,CHN,CN,Kinijos Liaudies Respublika
+Kipras,CYP,CY,Kipro Respublika
+Kirgizija,KGZ,KG,Kirgizijos Respublika
+Kiribatis,KIR,KI,Kiribačio Respublika
+Kokosų salos,-,CC,Kilingo salos
+Kolumbija,COL,CO,Kolumbijos Respublika
+Komorai,COM,KM,Komorų Federacinė Islamo Respublika
+Kongo Demokratinė Respublika,COD,CD,- 	 
+Kongas,CGO,CG,Kongo Respublika
+Kosta Rika,CRC,CR,Kosta Rikos Respublika
+Kroatija,CRO,HR,Kroatijos Respublika
+Kuba,CUB,CU,Kubos Respublika
+Kuko salos,COK,CK,- 	 
+Kuveitas,KUW,KW,Kuveito Valstybė
+Laosas,LAO,LA,Laoso Liaudies Demokratinė Respublika
+Latvija,LAT,LV,Latvijos Respublika
+Lenkija,POL,PL,Lenkijos Respublika
+Lesotas,LES,LS,Lesoto Karalystė
+Libanas,LIB,LB,Libano Respublika
+Liberija,LBR,LR,Liberijos Respublika
+Libija,LBA,LY,Libijos Arabų Socialistinė Liaudies Džamahirija
+Lichtenšteinas,LIE,LI,Lichtenšteino Kunigaikštytė
+Lietuva,LTU,LT,Lietuvos Respublika
+Liuksemburgas,LUX,LU,Liuksemburgo Didžioji Hercogystė
+Makao,-,MO,Aomenas
+Madagaskaras,MAD,MG,Madagaskaro Respublika
+Makedonija,MKD,MK,Buvusioji Jugoslavijos Respublika Makedonija
+Malaizija,MAS,MY,- 	 
+Malavis,MAW,MW,Malavio Respublika
+Maldyvai,MDV,MV,Maldyvų Respublika
+Malis,MLI,ML,Malio Respublika
+Malta,MLT,MT,Maltos Respublika
+Marianos šiaurinės salos,-,MP,- 	 
+Marokas,MAR,MA,Maroko Karalystė
+Martinika,-,MQ,- 	 
+Maršalo salos,MHL,MH,Maršalo Salų Respublika
+Mauricijus,MRI,MU,Mauricijaus Respublika
+Mauritanija,MTN,MR,Mauritanijos Islamo Respublika
+Mayotte'as,-,YT,- 	 
+Meksika,MEX,MX,Meksikos Jungtinės Valstijos
+Mergelių salos (JAV),ISV,VI,- 	 
+Mianmaras,MYA,MM,Mianmaro Sąjunga
+Mikronezijos Federacinės Valstijos,FSM,FM,- 	 
+Moldavija,MDA,MD,Moldovos Respublika
+Monakas,MON,MC,Monako Kunigaikštystė
+Mongolija,MGL,MN,- 	 
+Montseratas,-,MS,- 	 
+Mozambikas,MOZ,MZ,Mozambiko Respublika
+Namibija,NAM,NA,Namibijos Respublika
+Naujoji Kaledonija,-,NC,- 	 
+Naujoji Zelandija,NZL,NZ,- 	 
+Nauru,NRU,NR,Nauru Respublika
+Nepalas,NEP,NP,Nepalo Karalystė
+Nyderlandai,NED,NL,Nyderlandų Karalystė
+Nyderlandų Antilai,AHO,AN,- 	 
+Nigerija,NGR,NG,Nigerijos Federacinė Respublika
+Nigeris,NIG,NE,Nigerio Respublika
+Nikaragva,NCA,NI,Nikaragvos Respublika
+Niue,-,NU,Niujės sala
+Norfolkas,-,NF,Norfolko sala
+Norvegija,NOR,NO,Norvegijos Karalystė
+Omanas,OMA,OM,Omano Sultonatas
+Pakistanas,PAK,PK,Pakistano Islamo Respublika
+Palau,PLW,PW,Palau Respublika
+Palestina,-,PS,Okupuota Palestinos teritorija
+Panama,PAN,PA,Panamos Respublika
+Papua Naujoji Gvinėja,PNG,PG,- 	 
+Paragvajus,PAR,PY,Paragvajaus Respublika
+Peru,PER,PE,Peru Respublika
+Pietų Afrikos Respublika,RSA,ZA,- 	 
+Pietų Džordžija ir Pietų Sandvičo salos,-,GS,- 	 
+Pietų Korėja,KOR,KR,Korėjos Respublika
+Pitcairno salos,-,PN,Pitkerno salos
+Portugalija,POR,PT,Portugalijos Respublika
+Prancūzijos Gviana,-,GF,- 	 
+Prancūzijos Polinezija,-,PF,- 	 
+Prancūzija,FRA,FR,Prancūzijos Respublika
+Prancūzijos Pietų ir Antarkties sritys,-,TF,- 	 
+Puerto Rikas,PUR,PR,- 	 
+Pusiaujo Gvinėja,GEQ,GQ,Pusiaujo Gvinėjos Respublika
+Reunionas,-,RE,- 	 
+Ruanda,RWA,RW,Ruandos Respublika
+Rumunija,ROM,RO,- 	 
+Rusija,RUS,RU,Rusijos Federacija
+Rytų Timoras,TLS,TP,- 	 
+Saliamono salos,SOL,SB,- 	 
+Salvadoras,ESA,SV,Salvadoro Respublika
+Samoa,SAM,WS,Samoa Nepriklausomoji Valstybė
+San Marinas,SMR,SM,San Marino Respublika
+San Tomė ir Prinsipė,STP,ST,San Tomės ir Prinsipės Demokratinė Respublika
+Saudo Arabija,KSA,SA,Saudo Arabijos Karalystė
+Seišeliai,SEY,SC,Seišelių Respublika
+Sen Pjeras ir Mikelonas,-,PM,- 	 
+Senegalas,SEN,SN,Senegalo Respublika
+Sent Kitsas ir Nevis,SKN,KN,- 	 
+Sent Lusija,LCA,LC,- 	 
+Sent Vinsentas ir Grenadinai,VIN,VC,- 	 
+Serbija,-,SER,- 	 
+Siera Leonė,SLE,SL,Siera Leonės Respublika
+Singapūras,SIN,SG,Singapūro Respublika
+Sirija,SYR,SY,Sirijos Arabų Respublika
+Slovakija,SVK,SK,Slovakijos Respublika
+Slovėnija,SLO,SI,Slovėnijos Respublika
+Somalis,SOM,SO,Somalio Demokratinė Respublika
+Sudanas,SUD,SD,Sudano Respublika
+Suomija,FIN,FI,Suomijos Respublika
+Surinamas,SUR,SR,Surinamo Respublika
+Svazilandas,SWZ,SZ,Svazilando Karalystė
+Šiaurės Korėja,PRK,KP,Korėjos Liaudies Demokratinė Respublika
+Špicbergenas,-,SJ,Svalbardas ir Jan Mayenas
+Šri Lanka,SRI,LK,Šri Lankos Demokratinė Socialistinė Respublika
+Šventoji Elena,-,SH,Šventosios Elenos sala
+Švedija,SWE,SE,Švedijos Karalystė
+Šveicarija,SUI,CH,Šveicarijos Konfederacija
+Tadžikija,TJK,TJ,Tadžikistano Respublika
+Tailandas,THA,TH,Tailando Karalystė
+Taivanas,TPE,TW,Kinijos Respublika
+Tanzanija,TAN,TZ,Tanzanijos Jungtinė Respublika
+Togas,TOG,TG,Togo Respublika
+Tokelau,-,TK,- 	 
+Tonga,TGA,TO,Tongos Karalystė
+Trinidadas ir Tobagas,TRI,TT,Trinidado ir Tobago Respublika
+Tunisas,TUN,TN,Tuniso Respublika
+Turkija,TUR,TR,Turkijos Respublika
+Turkmėnija,TKM,TM,Turkmėnistanas
+Turkso ir Caicoso salos,-,TC,Terkso ir Kaiko salos
+Tuvalu,UV,TV,- 	 
+Uganda,UGA,UG,Ugandos Respublika
+Ukraina,UKR,UA,- 	 
+Urugvajus,URU,UY,Urugvajaus Rytų Respublika
+Uzbekija,UZB,UZ,Uzbekistano Respublika
+Vakarų Sachara,-,EH,- 	 
+Vanuatu,VAN,VU,Vanuatu Respublika
+Vatikanas,VAT,VA,Vatikano Miesto Valstybė; Šventasis Sostas
+Venesuela,VEN,VE,Venesuelos Respublika
+Vengrija,HUN,HU,Vengrijos Respublika
+Vietnamas,VIE,VN,Vietnamo Socialistinė Respublika
+Vokietija,GER,DE,Vokietijos Federacinė Respublika
+Wallisas ir Futuna,-,WF,Volio ir Futunos salos
+Zambija,ZAM,ZM,Zambijos Respublika
+Zimbabvė,ZIM,ZW,Zimbabvės Respublika
+Žaliasis Kyšulys,CPV,CV,Žaliojo Kyšulio Respublika

@@ -1,0 +1,10 @@
+<div style="width:100%;padding-top:5px">
+<%=render :partial => 'job', :locals => {:title => '', :roles => @politician.positions_by_type('seimas')}%>
+<%=render :partial => 'job', :locals => {:title => 'Valdyba', :roles => @politician.positions_by_type('valdyba')}%>
+<%=render :partial => 'job', :locals => {:title => 'Vadovybė', :roles => @politician.positions_by_type('vadovybe')}%>
+<%=render :partial => 'job', :locals => {:title => 'Frakcijos', :roles => @politician.positions_by_type('frakcija')}%>
+<%=render :partial => 'job', :locals => {:title => 'Komisijos', :roles => @politician.positions_by_type('komisija')}%>
+<%=render :partial => 'job', :locals => {:title => 'Komitetai', :roles => @politician.positions_by_type('komitetas')}%>
+<%=render :partial => 'job', :locals => {:title => 'Pakomitetčiai', :roles => @politician.positions_by_type('pakomitetis')}%>
+<%=render :partial => 'job', :locals => {:title => 'Grupės', :roles => @politician.positions_by_type('grupe')}%>
+</div>

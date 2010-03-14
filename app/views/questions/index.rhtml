@@ -1,0 +1,25 @@
+<div id="page_description">
+Seimo darbotvarkės klausimų paieška
+</div>
+<div id="tabcontainer">
+  <ul id="miniflex" style="margin-right:100%">
+      <li>
+        <%= link_to_function "Pagal veiklą", 
+				update_page{ |page|
+	        		page[:results].replace_html :partial => "filter_results"
+	      		}
+		%>
+      </li>
+      <li>
+        <%= link_to_function "Pagal klausimų formuluotes", 
+				update_page{ |page|
+	        		page[:results].replace_html :partial => "search_results"
+	      		}
+      	%>
+	  </li>
+    </ul>
+</div>
+
+<div id="results">
+	<%=render :partial=> 'filter_results'%>
+</div>

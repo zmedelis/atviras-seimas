@@ -1,0 +1,30 @@
+<div style="margin-bottom:20px;margin-top:7px">
+Pasirinke norimą Seimo narį(-ę) bei įveskite klausimų formuluočių paieškos raktažodžius. 
+Pagal nurodytas sąlygas bus pateikti pasirinkto Seimo nario(-ės) balsavimo rezultatai, 
+dėl klausimų atitinkančių paieškos sąlygas. 
+</div>
+
+<div style="width:800px">
+<%form_remote_tag :update => 'results', :url => {:action => 'search'} do -%>
+  <span style="float:left;padding-right:5px">Seimo narys(-ė)</span>
+  <span style="float:left;padding-right:15px"><%= text_field_with_auto_complete :politician, :full_name, :size => 25 %></span>
+  <span style="float:left;padding-right:5px">Paieška</span>
+  <span style="float:left;padding-right:15px"><%= text_field_tag 'search', nil, :size => 50 %></span>
+  <span style="float:left"><%=submit_tag 'Ieškoti'%></span>
+<% end -%>
+</div>
+
+<div style="float:left;width:100%;margin-top:10px;margin-left:15px;font-size:90%">
+<ul>
+  <li style="list-style:circle">Įvedus Seimo nario(-ės) pavardės pradžią bus pasiūlytas tinkančių pavardžių sąrašas.</li>
+  <li style="list-style:circle">Paieškoje naudoktie žodžio šaknį taip rezultatuose gausite visas to žodžio gramatines formats. Paieškoje galima naudoti <a href='http://en.wikipedia.org/wiki/Regular_expression'>RegExp</a>.</li>
+</ul>
+</div>
+
+<div style="float:left;width:100%" id="results">
+  <%=render :partial => "mp_votes"%>
+</div>
+
+<script type="text/javascript">
+    endProgress();
+</script>

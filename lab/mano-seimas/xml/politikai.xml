@@ -1,0 +1,92 @@
+  <?xml version='1.0'?>
+  <politikai>
+    <politikas id='7207'>
+      <asmuo>
+        <kadencija>2004-2008</kadencija>
+        <vardas>Irena</vardas>
+        <antras_vardas>Nėra duomenų</antras_vardas>
+        <pavarde>Degutienė</pavarde>
+        <gimimo_data>1949-06-01</gimimo_data>
+        <lytis>Moteris</lytis>
+        <gimimo_vieta_irasyta>Šiauliai</gimimo_vieta_irasyta>
+        <gimimo_vieta_sarase>Šiauliai</gimimo_vieta_sarase>
+        <tautybe>Lietuvis,-ė</tautybe>
+        <seimynine_padetis>Vedęs, ištekėjusi</seimynine_padetis>
+        <vaikai>2</vaikai>
+        <tevo_uzsiemimas_irasyta>A</tevo_uzsiemimas_irasyta>
+        <tevo_uzsiemimas_sarase>Ūkininkas,-ė arba darbininkas,-ė</tevo_uzsiemimas_sarase>
+        <motinos_uzsiemimas_irasyta>B</motinos_uzsiemimas_irasyta>
+        <motinos_uzsiemimas_sarase>Vadovas,-ė</motinos_uzsiemimas_sarase>
+        <teistumo_istorija>Nebuvo nuteistas,-a po 1990 m.</teistumo_istorija>
+      </asmuo>
+      <gyvenamoji_vieta>
+        <vieta data='2004-08-27' vietove='Vilnius'/>
+      </gyvenamoji_vieta>
+      <issimokslinimas>
+        <studijos sritis_irasyta='Bendrasis' pabaiga='1967' istaiga_sarase='Vidurinė mokykla' sritis_sarase='Vidurinis išsilavinimas' lygmuo_sarase='Vidurinė mokykla' istaiga_irasyta='Druskininkų 1-oji vidurinė mokykla (dabar - „Atgimimo“ vidurinė mokykla)' pradzia='1956' lygmuo_irasyta='Vidurinė mokykla'/>
+        <studijos sritis_irasyta='Medicininis' pabaiga='1972' istaiga_sarase='Vilniaus universitetas' sritis_sarase='Gydytoja' lygmuo_sarase='Bakalauro studijos (diplomuotas specialistas)' istaiga_irasyta='Vilniaus valstybinio universiteto Medicinos fakultetas' pradzia='1968' lygmuo_irasyta='Diplominės studijos'/>
+        <studijos sritis_irasyta='' pabaiga='0' istaiga_sarase='' sritis_sarase='' lygmuo_sarase='' istaiga_irasyta='' pradzia='0' lygmuo_irasyta=''/>
+      </issimokslinimas>
+      <darbine_veikla>
+        <darbas darboviete='Kauno dailės kombinato Druskininkų filialas' pabaiga='1968' saka='O - KITA KOMUNALINĖ, SOCIALINĖ IR ASMENINĖ APTARNAVIMO VEIKLA' pradzia='1967' veikla='NE - NĖRA DUOMENŲ' pareigos='Nėra duomenų' sektorius='Valstybinis' pobudis='Nėra duomenų'/>
+        <darbas darboviete='Alytaus medvilnės kombinatas' pabaiga='1976' saka='DB - TEKSTILĖS IR TEKSTILĖS GAMINIŲ GAMYBA' pradzia='1974' veikla='N - SVEIKATOS PRIEŽIŪRA IR SOCIALINIS DARBAS' pareigos='Gydytoja terapeutė' sektorius='Valstybinis' pobudis='Tarnautojas,-a'/>
+        <darbas darboviete='Vilniaus universitetinė „Raudonojo kryžiaus“ ligoninė' pabaiga='1994' saka='N - SVEIKATOS PRIEŽIŪRA IR SOCIALINIS DARBAS' pradzia='1976' veikla='N - SVEIKATOS PRIEŽIŪRA IR SOCIALINIS DARBAS' pareigos='Vyriausioji gydytoja' sektorius='Valstybinis' pobudis='Vadovas,-ė'/>
+        <darbas darboviete='Sveikatos apsaugos ministerija' pabaiga='1996' saka='N - SVEIKATOS PRIEŽIŪRA IR SOCIALINIS DARBAS' pradzia='1994' veikla='L - VIEŠASIS VALDYMAS IR GYNYBA; PRIVALOMASIS SOCIALINIS DRAUDIMAS' pareigos='Ministerijos sekretorė' sektorius='Valstybinis' pobudis='Vadovas,-ė'/>
+        <darbas darboviete='' pabaiga='0' saka='' pradzia='0' veikla='' pareigos='' sektorius='' pobudis=''/>
+      </darbine_veikla>
+      <visuomenine_partine_veikla>
+        <darbas pareigos_irasyta='Narė, pirmininko pavaduotoja' pabaiga='0' tipas='Partija' pavadinimas_irasyta='Tėvynės sąjunga' pavadinimas_sarase='TS' pradzia='1994' pareigos_sarase='Vadobybės narys,-ė'/>
+      </visuomenine_partine_veikla>
+      <politine_veikla>
+        <disidentas>Ne</disidentas>
+        <nomenklaturos_atstovas>Ne</nomenklaturos_atstovas>
+        <sajudzio_iniciatyvines_grupes_narys>Ne</sajudzio_iniciatyvines_grupes_narys>
+        <kovo_11_signataras>Ne</kovo_11_signataras>
+        <kadencijos>2</kadencijos>
+      </politine_veikla>
+      <politine_veikla_seime>
+        <veikla institucija='Frakcija' pabaiga='2000-10-18' pavadinimas='Jungtinė Valstiečių partijos, Krikščionių demokratų sąjungos, Nacionalinės partijos &quot;Jaunoji Lietuva&quot; frakcija' pradzia='1996-11-26' pareigos='Narys,-ė'/>
+        <veikla institucija='Komitetas' pabaiga='2000-10-18' pavadinimas='Socialinių reikalų ir darbo komitetas' pradzia='1996-11-27' pareigos='Narys,-ė'  id="0"/>
+        <veikla institucija='Frakcija' pabaiga='2004-11-14' pavadinimas='Tėvynės Sąjungos - konservatorių frakcija' pradzia='2000-10-20' pareigos='Narys,-ė' id="1"/>
+        <veikla institucija='Komitetas' pabaiga='2000-11-08' pavadinimas='Socialinių reikalų ir darbo komitetas' pradzia='2000-10-24' pareigos='Narys,-ė' id="2"/>
+        <veikla institucija='Komitetas' pabaiga='2004-11-14' pavadinimas='Socialinių reikalų ir darbo komitetas' pradzia='2000-11-09' pareigos='Pirmininko pavaduotojas,-a' id="3"/>
+      </politine_veikla_seime>
+      <politine_veikla_vyriausybeje>
+        <veikla pabaiga='2000-11-09' pradzia='1996-12-10' pareigos='Ministras,-ė' ministerija='Socialinės apsaugos ir darbo' id="0"/>
+        <veikla pabaiga='1999-05-31' pradzia='1999-05-03' pareigos='Laikinasis premjeras,-ė' ministerija='Visa vyriausybė' id="1"/>
+        <veikla pabaiga='1999-11-02' pradzia='1999-10-27' pareigos='Laikinasis premjeras,-ė' ministerija='Visa vyriausybė' id="2"/>
+        <veikla pareigos='Vaizdavimui ir soc. tinklui (reikia ID)' ministerija='Vaizdavimui ir soc. tinklui (reikia ID)' id="3"/>
+      </politine_veikla_vyriausybeje>
+      <politine_veikla_savivaldybeje>
+        <veikla pabaiga='2008-12-12' visos_pareigos='Pareigos A, Pareigos B' paskutines_pareigos='Pareigos A' savivaldybe='Vilniaus' pradzia='2004-01-01'/>
+      </politine_veikla_savivaldybeje>
+      <priklausomybe_laikinosioms_komisijoms>
+        <veikla pabaiga='2011-06-11' komisija='Nepriklausė' pradzia='2005-12-12' pareigos='Pirmininkas,-ė'/>
+      </priklausomybe_laikinosioms_komisijoms>
+      <turtas_pajamos>
+        <turtas privalomas_registruoti_turtas='0' gautos_paskolos='0' sutuoktinio_privalomas_registruoti_turtas='0' sutuoktinio_gautos_paskolos='0' pinigines_lesos='0' sutuoktinio_suteiktos_paskolos='0' data='2004-08-27' suteiktos_paskolos='0' sutuoktinio_pinigines_lesos='0' visos_asmenines_pajamos='81339'/>
+        <turtas privalomas_registruoti_turtas='207218' gautos_paskolos='0' sutuoktinio_privalomas_registruoti_turtas='207218' sutuoktinio_gautos_paskolos='0' pinigines_lesos='2000' sutuoktinio_suteiktos_paskolos='0' data='2003-12-31' suteiktos_paskolos='0' sutuoktinio_pinigines_lesos='137399' visos_asmenines_pajamos='0'/>
+        <turtas privalomas_registruoti_turtas='207218' gautos_paskolos='0' sutuoktinio_privalomas_registruoti_turtas='207218' sutuoktinio_gautos_paskolos='0' pinigines_lesos='20000' sutuoktinio_suteiktos_paskolos='0' data='2004-12-31' suteiktos_paskolos='0' sutuoktinio_pinigines_lesos='195000' visos_asmenines_pajamos='0'/>
+        <turtas privalomas_registruoti_turtas='257968' gautos_paskolos='0' sutuoktinio_privalomas_registruoti_turtas='257967' sutuoktinio_gautos_paskolos='0' pinigines_lesos='101000' sutuoktinio_suteiktos_paskolos='0' data='2005-12-31' suteiktos_paskolos='0' sutuoktinio_pinigines_lesos='101000' visos_asmenines_pajamos='0'/>
+        <turtas privalomas_registruoti_turtas='257253' gautos_paskolos='0' sutuoktinio_privalomas_registruoti_turtas='257253' sutuoktinio_gautos_paskolos='0' pinigines_lesos='9763' sutuoktinio_suteiktos_paskolos='0' data='2007-12-31' suteiktos_paskolos='0' sutuoktinio_pinigines_lesos='273553' visos_asmenines_pajamos='0'/>
+      </turtas_pajamos>
+      <balsavimo_panasumas>
+        <seimo_narys id='ID1' panasumas='0.87'/>
+        <seimo_narys id='ID2' panasumas='0.26'/>
+      </balsavimo_panasumas>
+
+	<stenogramu_zodziai>
+		<zodziu_dazniai>
+			<zodis saknis="transpor" dazniausias="transporto" kiekis_viso="29" kiekis_dazniausio="26"/>
+			<zodis saknis="ministeri" dazniausias="ministerijų" kiekis_viso="21" kiekis_dazniausio="21"/>
+		</zodziu_dazniai>
+	</stenogramu_zodziai>
+	<ziniasklaidos_zodziai>
+		<zodziu_dazniai>
+			<zodis saknis="transpor" dazniausias="transporto" kiekis_viso="29" kiekis_dazniausio="26"/>
+			<zodis saknis="ministeri" dazniausias="ministerijų" kiekis_viso="21" kiekis_dazniausio="21"/>
+		</zodziu_dazniai>
+	<ziniasklaidos_zodziai>
+
+    </politikas>
+  </politikai>

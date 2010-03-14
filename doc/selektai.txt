@@ -1,0 +1,1 @@
+select bill_id, SUM(CASE vote when "uz" then 1 else 0 END) as UZ, SUM(CASE vote when "pries" then 1 else 0 END) as PRIES from votes group by bill_id INTO OUTFILE "balsavimai.csv";

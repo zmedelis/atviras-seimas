@@ -1,0 +1,16 @@
+<%labels=%w{Nadalyvavo Nebalsavo Susilaikė Ne Taip}%>
+<table>
+<%@mp_votes.each do |v|%>
+	<tr>
+		<td><%=link_to v.question.formulation, 
+			{:controller=> 'questions', :action => 'show', :id=>v.question.sid}, 
+			{:id => 'inlist'}%></td>
+		<td width="80"><%=v.time%></td>
+		<td width="50"><%=labels[v.action-1]%></td>
+	</tr>
+<%end%>
+</table>
+
+<script type="text/javascript">
+    endProgress();
+</script>

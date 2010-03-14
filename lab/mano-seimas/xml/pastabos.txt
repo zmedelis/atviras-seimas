@@ -1,0 +1,6 @@
+Formatų dokumentacija pateikiama atitinkamuose XML failuose ęsančiuose komentaruose.
+XML failai prasideda šakniniu elementu <lrs>.
+XML failų koduotė UTF-8.
+XML elementų tekstinis turinys (CDATA) yra skiriamas tekstui kuris gali turėti HTML kodo fragmentų.
+Partijos/komitetai/frakcijos XML struktura yra identiska, skiriasi tik aprašančio elemento vardas.
+Balsavimų/klausimų temų XML struktura yra identiška, skiriasi tik aprašančio elemento vardas.

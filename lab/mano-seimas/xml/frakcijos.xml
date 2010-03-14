@@ -1,0 +1,74 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<!--
+	<frakcija> elemente pateikiama informacija apie frakciją
+		
+	<frakcija> atributai:
+	- id: unikalus frakcijos numeris
+	- spalva: nustatys frakcijos kedziu spalvas
+	- pavadinimas: frakcijos pavadinimas
+	- trumpas: frakcijos trumpas pavadinimas (be F gale, nes yra pridedama automatiskai, kur reikia)
+
+	<frakcija> tekstinis (CDATA) turinys teikia partijos aprašymą, adresą, telefonus, faksą, nuorodą į Seimo psl.
+-->
+<lrs>
+	<frakcija id="1" spalva="FF4455" pavadinimas="Lietuvos socialdemokratų partijos frakcija" trumpas="LSDP">
+	<![CDATA[Lietuvos socialdemokratų partijos frakcija yra didžiausia opozicinė frakcija šios kadencijos Lietuvos Respublikos Seime. Jai priklauso 25 nariai per 2008 m. Seimo rinkimus iškelti Lietuvos socialdemokratų partijos.<br><br>
+	Adresas: Gedimino pr. 53, LT-01109, Vilnius, I rūmai, 202 kab.<br>
+	Telefonai: 8(5)2396280, 8(5)2396281<br>
+	Faksas: 8(5)2396579<br>
+	Nuoroda į Seimo tinklalapį: <a href="http://www3.lrs.lt/pls/inter/w5_show?p_r=6132&p_k=1" target="_blank">Lietuvos socialdemokratų partijos frakcija</a>]]>
+	</frakcija>
+	<frakcija id="2" spalva="33CC33" pavadinimas="Tėvynės sąjungos-Lietuvos krikščionių demokratų frakcija" trumpas="TS-LKD">
+	<![CDATA[Valdančioji Tėvynės sąjungos-Lietuvos krikščionių demokratų frakcija yra didžiausia šios kadencijos parlamente. Beveik visi jos nariai pateko į Seimą iškelti Tėvynės sąjungos-Lietuvos krikščionių demokratų. Frakcijoje iš viso yra 46 nariai.<br><br>
+	Adresas: Gedimino pr. 53, LT-01109, Vilnius, III rūmai, 205 kab.<br>
+	Telefonai: 8(5)2396693 (frakcijos seniūno)<br>
+	Faksas: 8(5)2396539<br>
+	Nuoroda į Seimo tinklalapį: <a href="http://www3.lrs.lt/pls/inter/w5_show?p_r=6135&p_k=1" target="_blank">Tėvynės sąjungos-Lietuvos krikščionių demokratų frakcija</a>]]>
+	</frakcija>
+	<frakcija id="3" spalva="663399" pavadinimas="Darbo partijos frakcija" trumpas="DP">
+	<![CDATA[Darbo partijos frakcija vienija pagal koalicijos 'Darbo partija + jaunimas' sąrašą ir vienmandatėse apygardose išrinktus Seimo narius. Turėdama 10 narių, ji šiuo metu yra mažiausia opozicinė frakcija Seime.<br><br>
+	Adresas: Gedimino pr. 53, LT-01109, Vilnius, III rūmai, 211 kab.<br>
+	Telefonas: 8(5)2396709 (frakcijos seniūno)<br>
+	Nuoroda į Seimo tinklalapį: <a href="http://www3.lrs.lt/pls/inter/w5_show?p_r=6128&p_k=1" target="_blank">Darbo partijos frakcija</a>]]>
+	</frakcija>
+	<frakcija id="4" spalva="99CC33" pavadinimas="Tautos prisikėlimo partijos frakcija" trumpas="TPP">
+	<![CDATA[Tautos prisikėlimo partijos frakcija yra viena mažiausių Seime. Ji vienija parlamentarus, parėmusius pirmininką Arūną Valinską, kilus konfliktui juos iškėlusios Tautos prisikėlimo partijos viduje. Frakcija yra valdančiosios daugumos dalis.<br><br>
+	Adresas: Gedimino pr. 53, LT-01109, Vilnius, I rūmai, 109 kab.<br>
+	Telefonas: 8(5)2396670 (frakcijos seniūnės)<br>
+	Nuoroda į Seimo tinklalapį: <a href="http://www3.lrs.lt/pls/inter/w5_show?p_r=6776&p_k=1" target="_blank">Tautos prisikėlimo partijos frakcija</a>]]>
+	</frakcija>
+	<frakcija id="5" spalva="330066" pavadinimas="Frakcija 'Tvarka ir teisingumas'" trumpas="TT">
+	<![CDATA[Frakcija 'Tvarka ir teisingumas' yra parlamentinės opozicijos dalis. Ją sudaro 19 Seimo narių: daugiausia partijos 'Tvarka ir teisingumas“ nariai. Frakcijai taip pat priklauso trys Lietuvos lenkų rinkimų akcijos nariai. Frakcijos seniūnas Valentinas Mazuronis eina opozicijos lyderio pareigas.<br><br>
+	Adresas: Gedimino pr. 53, LT-01109, Vilnius, I rūmai, 113 kab.<br>
+	Telefonas: 8(5)2396642 (frakcijos seniūno)<br>
+	Nuoroda į Seimo tinklalapį: <a href="http://www3.lrs.lt/pls/inter/w5_show?p_r=6129&p_k=1" target="_blank">Frakcija 'Tvarka ir teisingumas'</a>]]>
+	</frakcija>
+	<frakcija id="6" spalva="FFCC15" pavadinimas="Liberalų ir centro sąjungos frakcija" trumpas="LiCS">
+	<![CDATA[Liberalų ir centro sąjungos frakcija priklauso valdančiajai daugumai. Ji vienija 7 narius, per 2008 m. Seimo rinkimus iškeltus Liberalų ir centro sąjungos.<br><br>
+	Adresas: Gedimino pr. 53, LT-01109, Vilnius, I rūmai, 434 kab.<br>
+	Telefonas: 8(5)2396640 (frakcijos seniūno)<br>
+	Nuoroda į Seimo tinklalapį: <a href="http://www3.lrs.lt/pls/inter/w5_show?p_r=6131&p_k=1" target="_blank">Liberalų ir centro sąjungos frakcija</a>]]>
+	</frakcija>
+	<frakcija id="7" spalva="990000" pavadinimas="Frakcija 'Viena Lietuva'" trumpas="VL">
+	<![CDATA[Dauguma frakcijos 'Viena Lietuva' narių - su Tautos prisikėlimo partija į Seimą atėję, o partijos viduje kilus konfliktui, pirmininko Arūno Valinsko nepalaikę parlamentarai. Frakcija nedalyvauja valdančiosios koalicijos veikloje, tačiau taip pat nėra pasiskelbusi opozicine. Ją sudaro 11 narių.<br><br>
+	Adresas: Gedimino pr. 53, LT-01109, Vilnius,I rūmai, 447 kab.<br>
+	Telefonai: 8(5)2396690 (frakcijos seniūno)<br>
+	Faksas: 8(5)2396283<br>
+	Nuoroda į Seimo tinklalapį: <a href="http://www3.lrs.lt/pls/inter/w5_show?p_r=6134&p_k=1" target="_blank">Frakcija 'Viena Lietuva'</a>]]>
+	</frakcija>
+	<frakcija id="8" spalva="FF9933" pavadinimas="Liberalų sąjūdžio frakcija" trumpas="LS">
+	<![CDATA[Liberalų sąjūdžio frakcija dirba valdančiojoje koalicijoje. Ji vienija 11 parlamentarų, 2008 m. Seimo rinkimuose iškeltų Liberalų Respublikos liberalų sąjūdžio.<br><br>
+	Adresas: Gedimino pr. 53, LT-01109, Vilnius, III rūmai, 218 kab.<br>
+	Telefonas: 8(5)2396351<br>
+	Faksas: 8(5)2396348<br>
+	Nuoroda į Seimo tinklalapį: <a href="http://www3.lrs.lt/pls/inter/w5_show?p_r=6130&p_k=1" target="_blank">Liberalų sąjūdžio frakcija</a>]]>
+	</frakcija>
+	<frakcija id="9" spalva="669966" pavadinimas="Mišri Seimo narių grupė" trumpas="MSNG">
+	<![CDATA[Mišriąją Seimo narių grupę sudaro tie parlamentarai, kurie nepriklauso nė vienai Seimo frakcijai. Šiuo metu jai priklauso 4 Seimo nariai, išrinkti vienmandatėse apygardose - trys iškelti Lietuvos valstiečių liaudininkų sąjungos, vienas - Naujosios sąjungos (socialliberalų) - ir viena Seimo narė išrinkta pagal rinkiminį Liberalų ir centro sąjungos sąrašą.<br><br>
+	Adresas: Gedimino pr. 53, LT-01109, Vilnius, III rūmai, 518 kab.<br>
+	Norėdami susisiekti telefonu, skambinkite konkretiems grupei priklausantiems Seimo nariams tiesiogiai.<br>
+	Nuoroda į Seimo tinklalapį: <a href="http://www3.lrs.lt/pls/inter/w5_show?p_r=6133&p_k=1" target="_blank">Mišri Seimo narių grupė</a>
+	]]>
+	</frakcija>
+</lrs>
+

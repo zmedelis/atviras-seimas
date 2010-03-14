@@ -1,0 +1,48 @@
+<div  style="float:left;width:742px;font-size:110%;color:black; padding-top:1px;padding-left:10px;margin-bottom:25px;padding-bottom:5px;margin-top:15px;">
+  <div class="blockname" style="width:100%;color:black;">
+    <div style="float:left;color:black"><%=@politician.full_name%>.&nbsp;&nbsp;</div>
+    <div style="float:left;font-style:italic"> <%=@current_group.description if @current_group%></div>
+  </div>
+  <div class="blocksubname">
+    <div style="float:left;width:750px;color:black">
+      <%=current_parliament%> metų Lietuvos Respublikos Seimo kadencija.
+    </div>
+    <div style="float:left;color:black;">Rinkimuose iškėlė -&nbsp;</div>
+
+    <div style="float:left;color:black;font-style:italic">
+      <%=@politician.party_candidate.nil? ? 'pats' : @politician.party_candidate %>.&nbsp;
+    </div>
+
+    <div style="float:left;color:black;">
+      <%=@politician.constituency.length == 0 ? 'Išrinktas(-a) pagal partijos sąrašą.' : 'Išrinktas ' + @politician.constituency + ' apygardoje.'%>
+    </div>
+  </div>
+</div>
+
+<div id="tabcontainer">
+  <ul id="miniflex" style="margin-right:100%">
+    <li>
+      <%= link_to_function "Apie", update_page{ |page|
+        page[:mp].replace_html :partial => "about"
+        page.call 'loadSearch'
+      }
+    %>
+    </li>
+    <li>
+      <%= link_to_function "Statistika", update_page{ |page|
+        page[:mp].replace_html :partial => "statistics"
+      }
+    %>
+    </li>    
+    <li>
+      <%= link_to_function "Darbas Seime", update_page{ |page|
+        page[:mp].replace_html :partial => "cv"
+      }
+    %>
+    </li>
+  </ul>
+</div>
+
+<div style="float:left" id="mp"> 
+  <%=render :partial=> 'about'%>
+</div>

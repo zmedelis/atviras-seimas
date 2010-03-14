@@ -1,0 +1,53 @@
+<div style="margin-top:15px">
+
+  <div style="width:700px" class="blockdivision"><%=@question.formulation%> <%=@question.sitting.date%></div>
+  <div style="margin-top:10px">Klausimo svarstymo eiga <a id='inlist' href='http://www3.lrs.lt/pls/inter/w5_sale.klaus_stadija?p_svarst_kl_stad_id=<%=@question.sid%>'>LRS svetainėje</a></div>
+  <img style="width:300px;margin-top:20px;margin-right:20px;float:left" src='<%=GoogleChart.pie_300x150(
+         ['Taip',@question.votes.count(:all,:conditions=>{:action=>Vote::YES})],
+         ['Ne',@question.votes.count(:all,:conditions=>{:action=>Vote::NO})],
+         ['Susilaikė',@question.votes.count(:all,:conditions=>{:action=>Vote::ABSTAIN})],
+         ['Nebalsavo',@question.votes.count(:all,:conditions=>{:action=>Vote::NOVOTE})],
+         ['Nedalyvavo',@question.votes.count(:all,:conditions=>{:action=>Vote::ABSENT})]).to_url + '&chco=ED3B3B'%>'/>
+
+  <div style="float:left;padding-left:20px;margin-top:20px">
+    <div><b>Kalbėję Seimo nariai ir pasisakymų skaičius:</b></div>
+    <ul>
+	  <p style="margin-top:10px"><%="Pasisakiusių Seimo narių nebuvo." if @question.speeches.size == 0%></p>
+      <%@question.speeches.group_by(&:politician_id).each do |mp,sp|%>
+        <%p=Politician.find(mp)%>
+		<%pg = p.current_political_group%>
+        <li style="margin-top:2px"><%=link_to p.full_name,
+            {:controller=>'politicians', :action => 'show', :id => p.name_as_id},
+            {:id => 'inlist'} %> (<%=pg.code if pg%>) - <%=h sp.size%></li>
+        <%end%>
+    </ul>
+    
+  </div>
+</div>
+<div style="float:left;margin-top:30px;width:100%">
+  <p>
+	Grafike rodomas balsų pasiskirstymas skaičiuojant visus už klausimą vykusius balsavimus.
+	Dėl klausimo buvo balsuota <b><%=h @voting_rounds.size%></b> kartus.
+	</p>
+	<p style="margin-top:10px;margin-bottom:10px">
+		Bendras balsų pasiskirstymas Seime rodomas viršutinėje paryškintoje eilutėje. <br>
+		Balsų pasiskirstymas pagal frakcijas rodomas stulpeliuose.</p>
+
+  <%@voting_rounds.each do|time, voting_round|%>
+    <div style="float:left;margin-bottom:20px">
+      <hr/>
+      <p>Balsavimo laikas: <%=time%></p>
+
+      <%=render :partial=> 'voters', :locals => {:title => 'Taip', :votes => @question.votes.find(:all, :conditions=>{:action=>Vote::YES, :time=>time}), :time=>time} %>
+      <%=render :partial=> 'voters', :locals => {:title => 'Ne', :votes => @question.votes.find(:all, :conditions=>{:action=>Vote::NO, :time=>time}), :time=>time} %>
+      <%=render :partial=> 'voters', :locals => {:title => 'Susilaikė', :votes => @question.votes.find(:all, :conditions=>{:action=>Vote::ABSTAIN, :time=>time}), :time=>time} %>
+      <%=render :partial=> 'voters', :locals => {:title => 'Nebalsavo', :votes => @question.votes.find(:all, :conditions=>{:action=>Vote::NOVOTE, :time=>time}), :time=>time} %>
+      <%=render :partial=> 'voters', :locals => {:title => 'Nedalyvavo', :votes => @question.votes.find(:all, :conditions=>{:action=>Vote::ABSENT, :time=>time}), :time=>time} %>
+    </div>
+  <%end%>
+
+</div>
+
+<script type="text/javascript">
+    endProgress();
+</script>

@@ -1,0 +1,61 @@
+<script src="http://www.google.com/jsapi?key=ABQIAAAAnglguBwDM5qujOq99yyxbBT2yXp_ZAY8_ufC3CFXhHIE1NvwkxSQZIpmCWT4KpZOx4ZO22JvXKuLOg" type="text/javascript"></script>
+<script src="http://www.google.com/uds/api?file=uds.js&amp;v=1.0" type="text/javascript"></script>
+<link href="http://www.google.com/uds/css/gsearch.css" type="text/css" rel="stylesheet"/>
+<style type="text/css"> 
+  .gsc-search-box { display : none; } 
+  .gsc-control { width : 340px}
+  </style>
+<script type="text/javascript">
+  //<![CDATA[
+
+  google.load("search", "1");
+  google.setOnLoadCallback(loadSearch);
+  endProgress(); //TODO kodel jis isvis prasideda?
+
+  function loadSearch(){
+    var searchControlForNews = new google.search.SearchControl();
+    var searchControlForImages = new google.search.SearchControl();
+    
+    var wwwSearch = new GwebSearch();
+    var blogSearch = new GwebSearch();
+
+    var videoSearch = new GvideoSearch();
+    var imageSearch = new GimageSearch();
+
+    wwwSearch.setRestriction(GSearch.RESTRICT_EXTENDED_ARGS,{ lr :"lang_lt"});
+    wwwSearch.setUserDefinedLabel("Naujienos");
+    wwwSearch.setSiteRestriction("003297298128839177532:5c0c7m99_qg");
+    blogSearch.setSiteRestriction("003297298128839177532:cnid2bf5rua");
+    blogSearch.setUserDefinedLabel("Tinklaraščiai");
+    videoSearch.setUserDefinedLabel("Video");
+    imageSearch.setUserDefinedLabel("Vaizdai");
+    
+    searchControlForImages.addSearcher(imageSearch);
+    searchControlForImages.addSearcher(videoSearch);
+    searchControlForNews.addSearcher(wwwSearch);
+    searchControlForNews.addSearcher(blogSearch);
+    
+    var drawOptions = new GdrawOptions();
+    drawOptions.setDrawMode(GSearchControl.DRAW_MODE_TABBED);
+
+    searchControlForImages.draw(document.getElementById("searchControlForImages"),drawOptions);
+    searchControlForImages.execute("<%=@politician.full_name%>");
+
+    searchControlForNews.draw(document.getElementById("searchControlForNews"),drawOptions);
+    searchControlForNews.execute("<%=@politician.full_name%>");
+  }
+  //]]>
+</script>
+
+<div>
+
+<div id="searchControlForImages" style="float:left">Palaukite...</div>
+<div id="searchControlForNews" style="float:right">Palaukite...</div>
+
+</div>
+
+<div style="float:left;padding-top:50px">
+    <%=@politician.full_name%> 
+    <img src='http://www3.lrs.lt/favicon.ico' width='15' height='15'/> <a href="http://www3.lrs.lt/pls/inter/w5_show?p_r=786&p_k=1&p_a=5&p_asm_id=<%=@politician.id_in_lrs%>">LRS svetainėje</a>
+    <img src='http://lt.wikipedia.org/favicon.ico'/> <a href="http://lt.wikipedia.org/wiki/<%=@politician.full_name.gsub(' ', '_')%>">Wikipedijoje</a>
+</div>

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+	Ministerijų sąrašas
+-->
+<lrs>
+	<ministerija id="1" pavadinimas="Visa vyriausybė" trumpas=""/>
+	<ministerija id="2" pavadinimas="Aplinkos" trumpas=""/>
+	<ministerija id="2" pavadinimas="Aplinkos apsaugos" trumpas=""/>
+	<ministerija id="4" pavadinimas="Ekonomikos" trumpas=""/>
+	<ministerija id="5" pavadinimas="Energetikos" trumpas=""/>
+	<ministerija id="6" pavadinimas="Finansų" trumpas=""/>
+	<ministerija id="7" pavadinimas="Krašto apsaugos" trumpas=""/>
+	<ministerija id="8" pavadinimas="Kultūros" trumpas=""/>
+	<ministerija id="8" pavadinimas="Kultūros ir švietimo" trumpas=""/>
+	<ministerija id="10" pavadinimas="Materialinių išteklių" trumpas=""/>
+	<ministerija id="11" pavadinimas="Miškų ūkio" trumpas=""/>
+	<ministerija id="12" pavadinimas="Pramonės" trumpas=""/>
+	<ministerija id="12" pavadinimas="Pramonės ir prekybos" trumpas=""/>
+	<ministerija id="14" pavadinimas="Prekybos" trumpas=""/>
+	<ministerija id="15" pavadinimas="Prekybos ir materialinių išteklių" trumpas=""/>
+	<ministerija id="16" pavadinimas="Ryšių" trumpas=""/>
+	<ministerija id="17" pavadinimas="Ryšių ir informatikos" trumpas=""/>
+	<ministerija id="18" pavadinimas="Socialinės apsaugos" trumpas=""/>
+	<ministerija id="18" pavadinimas="Socialinės apsaugos ir darbo" trumpas=""/>
+	<ministerija id="20" pavadinimas="Statybos ir urbanistikos" trumpas=""/>
+	<ministerija id="21" pavadinimas="Susisiekimo" trumpas=""/>
+	<ministerija id="22" pavadinimas="Sveikatos apsaugos" trumpas=""/>
+	<ministerija id="23" pavadinimas="Švietimo ir mokslo" trumpas=""/>
+	<ministerija id="24" pavadinimas="Tarptautinių ekonominių santykių" trumpas=""/>
+	<ministerija id="25" pavadinimas="Teisingumo" trumpas=""/>
+	<ministerija id="26" pavadinimas="Ūkio" trumpas=""/>
+	<ministerija id="27" pavadinimas="Užsienio reikalų" trumpas=""/>
+	<ministerija id="28" pavadinimas="Valdymo reformų ir savivaldybių reikalų" trumpas=""/>
+	<ministerija id="29" pavadinimas="Vidaus reikalų" trumpas=""/>
+	<ministerija id="30" pavadinimas="Žemės ūkio" trumpas=""/>
+</lrs>
+
+

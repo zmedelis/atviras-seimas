@@ -1,0 +1,116 @@
+<style type="text/css">
+  div.slider { width:256px; margin:10px 0; background-color:#ccc; height:10px; position: relative; }
+  div.slider div.handle { width:8px; height:13px; background-color:#006080; cursor:move; position: absolute; }
+</style>
+
+<div style="margin-bottom:20px;margin-top:7px">
+Paieška vykdoma pagal Seimo narių dalyvavimą svarstymo eigoje. Skalėse nurodykite norimą Seimo narių, dalyvavusių atitinkamoje veikloje, skaičių:
+</div>
+
+<div>
+  <div style="float:left;width:300px">
+    <p id="attendance_value">Posėdyje dalyvavusių - 115</p>
+    <div id="attendance_slider" class="slider">
+      	<div class="handle"></div>
+    </div>
+
+    <p id="vote_value">Balsavusių - 55%</p>
+    <div id="vote_slider" class="slider">
+      <div class="handle"></div>
+    </div>
+  </div>
+  <div style="float:left;width:300px">
+    <p id="speech_value">Kalbėjusių - 10</p>
+    <div id="speech_slider" class="slider">
+      <div class="handle"></div>
+    </div>
+
+    <p id="rebellion_value">Prieštaravusių balsų - 25%</p>
+    <div id="rebellion_slider" class="slider">
+      <div class="handle"></div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+    var attendance = 115;
+    var speech = 10;
+    var rebellion = 0.25;
+    var vote = 0.55;
+
+    var attendance_slider = $('attendance_slider'),
+        speech_slider = $('speech_slider'),
+        rebellion_slider = $('rebellion_slider'),
+        vote_slider = $('vote_slider');
+
+
+
+    new Ajax.Updater('questions', 'questions/filter', {method: 'get', parameters: parameters()});
+
+    new Control.Slider(attendance_slider.down('.handle'), attendance_slider, {
+      range: $R(0, 141),
+      sliderValue: attendance,
+      onSlide: function(value) {
+        $('attendance_value').innerHTML = 'Posėdyje dalyvavusių - ' + Math.round(value)
+      },
+      onChange: function(value) {
+        $('attendance_value').innerHTML = 'Posėdyje dalyvavusių - ' + Math.round(value)
+        attendance = value;
+        new Ajax.Updater('questions', 'questions/filter', {method: 'get', parameters: parameters()});
+      }
+    });
+
+    new Control.Slider(vote_slider.down('.handle'), vote_slider, {
+      range: $R(0, 100),
+      sliderValue: vote * 100,
+      onSlide: function(value) {
+        $('vote_value').innerHTML = 'Balsavusių - ' + Math.round(value) + '%'
+      },
+      onChange: function(value) {
+        $('vote_value').innerHTML = 'Balsavusių - ' + Math.round(value) + '%'
+        vote = (1.0 * value / 100);
+        new Ajax.Updater('questions', 'questions/filter', {method: 'get', parameters: parameters()});
+      }
+    });
+
+    new Control.Slider(speech_slider.down('.handle'), speech_slider, {
+      range: $R(0, 50),
+      sliderValue: speech,
+      onSlide: function(value) {
+	$('speech_value').innerHTML = 'Kalbėjusių - ' + Math.round(value)
+      },
+      onChange: function(value) {
+        $('speech_value').innerHTML = 'Kalbėjusių - ' + Math.round(value)
+        speech = value;
+        new Ajax.Updater('questions', 'questions/filter', {method: 'get', parameters: parameters()});
+      }
+    });
+
+    new Control.Slider(rebellion_slider.down('.handle'), rebellion_slider, {
+      range: $R(0, 49),
+      sliderValue: rebellion * 100,
+      onSlide: function(value) {
+	$('rebellion_value').innerHTML = 'Prieštaravusių balsų - ' + Math.round(value) + '%'
+      },
+      onChange: function(value) {
+        $('rebellion_value').innerHTML = 'Prieštaravusių balsų - ' + Math.round(value) + '%'
+        rebellion = (1.0 * value / 100);
+        new Ajax.Updater('questions', 'questions/filter', {method: 'get', parameters: parameters()});
+      }
+    });
+
+    function parameters(){
+        return "attendance=" + attendance + "&" +
+        "speech=" + speech + "&" +
+        "rebellion=" + rebellion + "&" +
+        "vote=" + vote
+    }
+
+</script>
+
+<div style="float:left;width:100%" id="questions">
+</div>
+
+<script type="text/javascript">
+    
+</script>

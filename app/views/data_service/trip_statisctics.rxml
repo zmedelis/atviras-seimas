@@ -1,0 +1,21 @@
+xml.instruct! :xml, :version=>"1.0"
+xml.lrs{
+ 	@grouped_states.each do |group,states|
+		xml.grupe do
+		  xml.iso(group.iso)
+			xml.pavadinimas(group.name)
+			xml.lng(group.lng)
+			xml.lat(group.lat)
+			komandiruociu_kiekis = 0
+			states.each {|x| komandiruociu_kiekis += x.trips.count}
+			xml.komandiruociu_kiekis(komandiruociu_kiekis)
+			states.each do |state|
+				state_to_xml xml, state
+			end
+    	end
+	end
+	
+	@grouped_states.default.each do |state|
+		state_to_xml xml, state
+    end
+}

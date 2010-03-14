@@ -1,0 +1,3 @@
+page.call 'startProgress'
+page.replace_html 'lrs', :partial => "summary"
+page.call 'endProgress'

@@ -1,0 +1,104 @@
+<script
+  src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=<%=GOOGLE_MAPS_KEY%>" type="text/javascript"></script>
+
+<div id="page_description">
+    <%=current_parliament%> Seimo kadencijos darbas per 30 dienų: posėdžiai, komandiruotės, svarstyti klausimai, paskutiniai pranešimai spaudai
+</div>
+
+
+<div style="float:left">
+
+  <div class="infobox">
+    <h2 class="infobox_title">Dienos nuotrauka</h2>
+    <img style="width:400px;" src=<%=@img_src%>/>
+    <div style="margin-top:5px">
+      <p><%=@img_alt%> <a id="inlist" href='<%=@img_url%>'>(www.lrs.lt)</a></p>
+    </div>
+  </div>
+
+  <div class="infobox">
+    <h2 class="infobox_title">Seimo narių komandiruotės</h2>
+    <table width="100%">
+	  <%="<p>Paskutinį mėnėsį Seimo nariai nebuvo komandiruotėse. Visas komandiruotes galima pamtyti <a href='/komandiruotes'>komandiruočių</a> puslapyje.</p>" if @trips.size == 0%>
+
+      <%@trips.each do |trip| %>
+        <tr>
+          <td style="padding-right:3px;padding-bottom:5px;"><img src='/images/flags/<%=trip.state.iso_id.downcase%>.gif'/></td>
+          <td style="padding-right:3px;padding-bottom:5px;"><%=h trip.state.state_labels.first.label%></td>
+          <td style="padding-right:3px;padding-bottom:5px;"><%=link_to trip.politician.full_name,
+                {:controller=>'politicians', :action => 'show', :id => trip.politician.name_as_id},
+                {:id => 'inlist'}%>
+          </td>
+          <td style="padding-right:3px;padding-bottom:5px;"><%=h trip.start_date.to_s%></td>
+        </tr>
+      <%end%>
+    </table>
+  </div>
+
+  <div class="infobox">
+    <h2 class="infobox_title">Pranešimai spaudai</h2>
+    <table>
+      <%@feed.each do |item|%>
+        <tr>
+          <td style="padding-right:10px;padding-bottom:5px;vertical-align:top"><%=h item[:date]%></td>
+          <td style="padding-bottom:5px;"><a id="inlist" href="<%=item[:link]%>"><%=item[:title]%></a></td>
+        </tr>
+      <%end%>
+    </table>
+  </div>
+
+</div>
+
+<div style="margin-left:20px;float:left">
+
+  <div class="infobox">
+    <h2 class="infobox_title">Seimo posėdžiai</h2>
+    <table style="width:100%">
+      <%@sittings.each do |sitting| %>
+        <tr>
+          <th rowspan="3" style="vertical-align:top"><%=h sitting.date%></th>
+          <td>Lankomumas:</td>
+          <td align="left"><%=h stat_percent(
+              Attendance.count(:conditions=>{:sitting_id=>sitting.id, :present=>true}),
+              141)%></td>
+        </tr>
+        <tr>
+          <td>Dalyvavo balsavime:</td>
+          <td align="left"><%=h stat_percent(
+              sitting.votes.count(:conditions=>["action in (?,?,?)", Vote::YES, Vote::NO, Vote::ABSTAIN]),
+              sitting.votes.count
+            )%></td></tr>
+        <tr>
+          <td style="padding-bottom:10px;">Svarstyti klausimai:</td>
+          <td style="padding-bottom:10px;" align="left"><%=sitting.questions.count%></td>
+        </tr>
+      <%end%>
+    </table>
+  </div>
+
+  <div class="infobox">
+    <h2 class="infobox_title">Svarstyti darbotvarkės klausimai</h2>
+    <table>
+      <%@sittings.each do |sit|%>
+        <%sit.questions.reject{|q| q.votes.count == 0}.each do |q|%>
+			<%pv = ParliamentVote.find(:first,:conditions=>{:question_id => q.id})%>
+          <tr>
+            <td style="vertical-align:top;padding-right:4px;padding-bottom:5px;">
+              <%= sparkline_tag [pv.action_yes * 100.0 / 141],
+                :type => 'pie',
+                :diameter => 18,
+                :share_color => '#ED3B3B',
+                :remain_color => '#FFCFCF' %>
+            </td>
+            <td style="padding-bottom:5px;"><%= link_to q.formulation, {:controller=> 'questions', :action => 'show', :id=>q.sid}, {:id => 'inlist'}%></td>
+          </tr>
+        <%end%>
+      <%end%>
+    </table>
+  </div>
+</div>
+
+<script type="text/javascript">
+    endProgress();
+</script>
+

@@ -1,0 +1,19 @@
+<div style="float:right;width:33%;">
+  <div class="blockdivision" ><%=title%></div>
+  <div class="fineprint"  style="padding-bottom:5px"><%=subtitle%></div>
+  <table style="width:100%;">
+
+    <%similarities.sort {|a,b| b[1]<=>a[1]}[0..9].each do|mp,similarity|%>
+      <tr>
+        <td style="padding-bottom:5px">
+          <%=link_to mp.semi_full_name,
+            {:action => 'show', :id => mp.name_as_id},
+            {:id => 'inlist'} %>
+        </td>
+        <%pg=mp.current_political_group%>
+        <td style="padding-right:15px;"><%=pg.code if pg%></td>
+        <td style="padding-right:15px;padding-bottom:5px"><%=sprintf(format,similarity)%></td>
+      </tr>
+    <%end%>
+  </table>
+</div>

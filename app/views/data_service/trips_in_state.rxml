@@ -1,0 +1,14 @@
+xml.instruct! :xml, :version=>"1.0" 
+xml.lrs{
+	if @destination.kind_of? State
+		trip_to_xml xml, @destination
+	else
+		xml.grupe do
+		  xml.iso(@destination.iso)
+			xml.pavadinimas(@destination.name)
+			@destination.states.each do |state|
+				trip_to_xml xml, state
+			end
+		end
+	end
+}

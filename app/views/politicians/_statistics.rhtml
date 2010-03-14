@@ -1,0 +1,102 @@
+<div style="margin-bottom:50px">
+  <h2 class="infobox_title" style="width:700px">Veikla įstatymų leidybos procese</h2>
+  <table style="width:640">
+      <col width="180"/>
+      <col width="70"/>
+      <col width="70"/>
+      <col width="45"/>
+      <col width="15"/>
+      <col width="45"/>
+      <col width="80"/>
+      <col width="35"/>
+      <col width="5"/>
+      <col width="35"/>
+      <col width="80"/>
+    <tr style="font-weight: bold;border-bottom: 1px solid #1695A3;font-size:110%;">
+      <th style="font-weight: bold;padding-bottom:5px;border-right: 1px solid #1695A3;"></th>
+      <th style="font-weight: bold; text-align: center;padding-bottom:5px;border-right: 1px solid #1695A3;">Seimo vidurkis</th>
+      <th colspan="5" style="font-weight: bold; text-align: center;padding-bottom:5px;border-right: 1px solid #1695A3;">Veiklos įvertinimas</th>
+      <th colspan="3" style="font-weight: bold; text-align: center;padding-bottom:5px;border-right: 1px solid #1695A3;">Vieta Seime</th>
+      <th style="font-weight: bold; text-align: center;padding-bottom:5px">Veiklos pokytis</th>
+    </tr>
+    <%=render :partial => 'kpi', :locals => {
+          :title => 'Posėdžių lankomumas',
+          :subject => 'posėdžių',
+          :fact => @attended,
+          :all_facts => @all_attendances,
+          :rank => @attendance_rank,
+          :history => @attendance_history,
+          :avg => @attendace_avg}%>
+    <%=render :partial => 'kpi', :locals => {
+          :title => 'Dalyvavimas balsavimuose',
+          :subject => 'klausimų',
+          :fact => @voted,
+          :all_facts => @all_votes,
+          :rank => @vote_rank,
+          :history => @vote_history,
+          :avg => @vote_avg}%>
+    <%=render :partial => 'kpi', :locals => {
+          :title => 'Pasisakymai posėdžiuose',
+          :subject => 'pasisakymų',
+          :fact => @spoke,
+          :all_facts => @all_speeches,
+          :rank => @speech_rank,
+          :history => @speech_history,
+          :avg => @speech_avg}%>
+    <%=render :partial => 'kpi', :locals => {
+          :title => 'Pritarimas frakcijos balsams',
+          :fact => @group_rebellions,
+          :subject => 'klausimų',
+          :all_facts => @active_votes,
+          :rank => @group_rebellion_rank,
+          :history => @group_rebellion_history,
+          :avg => @group_rebellion_avg}%>
+    <%=render :partial => 'kpi', :locals => {
+          :title => 'Pritarimas Seimo balsams',
+          :subject => 'klausimų',
+          :fact => @parliament_rebellions,
+          :all_facts => @active_votes,
+          :rank => @parliament_rebellion_rank,
+          :history => @parliament_rebellion_history,
+          :avg => @parliament_rebellion_avg}%>
+  </table>
+  <div style="margin-top:10px;margin-left:15px;font-size:90%">
+    <ul>
+      <li style="list-style:circle"><i>Vieta Seime</i> – Seimo nario(-ės) vieta pagal veiklos įvertinimą tarp visų Seimo narių</li>
+      <li style="list-style:circle"><i>Veiklos pokytis</i> -  pokytis kas mėnesį. Linija žymi Seimo vidurkį.
+	Rausvai žymimi mėnesiai, 
+	kai Seimo nario(-ės) veiklos vidurkis buvo mažesnis už Seimo vidurkį; raudonai - kai didesnis. </li>
+      <li style="list-style:circle">Seimo nario(-ės) veikla yra lyginama su visais esamais ir buvusiais Seimo nariais.</li>
+    </ul>
+  </div>
+</div>
+
+
+<div style="margin-bottom:50px;width:700px">
+  <h2 class="infobox_title">Sąsajos tarp Seimo narių</h2>
+  <div>
+   
+    <%=render :partial => 'similarity',
+        :locals => {
+            :title => 'Panašus balsavimas',
+            :subtitle => 'Kiti tais pačiais klausimais panašiai balsuojantys Seimo nariai. Sutampančių balsų procentas.',
+            :similarities=>@politician.similarities_by_votes,
+			:format=>"%2.2f%"
+    }%>
+    <%=render :partial => 'similarity', 
+        :locals => {
+            :title => 'Bendras darbas Seime',
+            :subtitle => 'Bendradarbiavimas tose pačiose komisijose, grupėse, komitetuose ir pan.',
+            :similarities=>@politician.similarities_by_jobs,
+			:format=>"%d"
+    }%>
+    <%=render :partial => 'similarity',
+      :locals => {
+        :title => 'Paminėjimai pasisakymuose',
+        :subtitle => 'Kitų Seimo narių paminėjimas Seimo nario(-ės) pasisakymuose per posėdžius.',
+        :similarities=>@politician.similarities_by_references,
+		:format=>"%d"
+      }%>
+
+  </div>
+</div>

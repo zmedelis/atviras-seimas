@@ -1,0 +1,9 @@
+xml.instruct! :xml, :version=>"1.0"
+xml.lrs{
+	@mps.each do |mp|
+		xml.seimo_narys do
+			xml.vardas_pavarde(mp.full_name)
+			xml.id(mp.id_in_lrs)
+		end
+	end
+}

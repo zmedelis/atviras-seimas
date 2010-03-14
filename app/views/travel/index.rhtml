@@ -1,0 +1,30 @@
+<script 
+  src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=<%=GOOGLE_MAPS_KEY%>" type="text/javascript"></script>
+
+<%= javascript_include_tag 'gmap', 'marker_manager', 'labeled_marker' %>
+
+<div id="page_description"><%=current_parliament%> metų kadencijos Seimo narių komandiruotės</div>
+<div class="blocksubname">Paskutinė komandiruotė - <%=Trip.maximum('start_date')%></div>
+
+<div id="tabcontainer">
+  <ul id="miniflex" style="margin-right:100%">
+      <li>
+        <%= link_to_remote "Žemėlapis",  
+            :url => {:action => "lrsmap"},
+            :html => {:id => ''}%>
+      </li>
+      <li>
+        <%= link_to_remote "Statistika", 
+            :url => {:action => "lrslist"},
+            :html => {:id => ''}%>
+      </li>
+    </ul>
+</div>
+
+<div id="lrs">
+  <%=render :partial=> 'map'%>
+</div>
+
+<script type="text/javascript">
+    load();
+</script>

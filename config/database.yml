@@ -1,0 +1,21 @@
+login: &login
+  adapter: mysql
+  host: localhost
+  encoding: utf8
+  username: okam
+  password: no
+
+production:
+  database: seimas_development
+  <<: *login
+  socket: /tmp/mysql.sock
+
+development:
+  database: seimas_development
+  <<: *login
+  socket: /tmp/mysql.sock
+
+test:
+  database: seimas_test
+  <<: *login
+  socket: /tmp/mysql.sock

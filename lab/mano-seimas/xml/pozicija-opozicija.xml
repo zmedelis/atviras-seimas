@@ -1,0 +1,34 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<!--
+	Seimo frakcijų priklausymas, pozicijai/opozicijai
+	
+	<frakcija> elementas aprašo frakcijos pozicijos/opocicijos požymį
+	
+	<frakcija> atributai:
+	- id: unikalus frakcijos numeris, žr. frakcijos.xml
+	- pozicija: priklauso ar ne pozicijai, galimos reikšmės: taip, ne
+	- pradzia: priklausimo pozicijai/opozicijai pradzia
+	- pabaiga: priklausimo pozicijai/opozicijai pabaiga
+-->
+<lrs>
+	<frakcija id='1' pradzia='2008-11-17' pabaiga='2008-12-09' pozicija='taip'/>
+	<frakcija id='1' pradzia='2008-12-10' pabaiga='' pozicija='ne'/>	
+	<frakcija id='2' pradzia='2008-11-17' pabaiga='2008-12-09' pozicija='ne'/>
+	<frakcija id='2' pradzia='2008-12-10' pabaiga='' pozicija='taip'/>	
+	<frakcija id='3' pradzia='2008-11-17' pabaiga='2008-12-09' pozicija='ne'/>
+	<frakcija id='3' pradzia='2008-12-10' pabaiga='' pozicija='ne'/>	
+	<frakcija id='4' pradzia='2008-11-17' pabaiga='2008-12-09' pozicija='ne'/>
+	<frakcija id='4' pradzia='2008-12-10' pabaiga='2009-07-15' pozicija='taip'/>
+	<frakcija id='4' pradzia='2009-07-16' pabaiga='2009-09-10' pozicija='ne'/>
+	<frakcija id='4' pradzia='2009-09-17' pabaiga='' pozicija='taip'/>	
+	<frakcija id='5' pradzia='2008-11-17' pabaiga='2008-12-09' pozicija='ne'/>
+	<frakcija id='5' pradzia='2008-12-10' pabaiga='' pozicija='ne'/>	
+	<frakcija id='6' pradzia='2008-11-17' pabaiga='2008-12-09' pozicija='taip'/>
+	<frakcija id='6' pradzia='2008-12-10' pabaiga='' pozicija='taip'/>	
+	<frakcija id='7' pradzia='2009-09-10' pabaiga='' pozicija='ne'/>	
+	<frakcija id='8' pradzia='2008-11-17' pabaiga='2008-12-09' pozicija='ne'/>
+	<frakcija id='8' pradzia='2008-12-10' pabaiga='' pozicija='taip'/>	
+	<frakcija id='9' pradzia='2008-11-17' pabaiga='2008-12-09' pozicija='ne'/>
+	<frakcija id='9' pradzia='2008-12-10' pabaiga='' pozicija='ne'/>	
+	<frakcija id='10' pradzia='2009-07-16' pabaiga='2009-09-16' pozicija='taip'/>
+</lrs>
